@@ -54,7 +54,7 @@ nav{display:flex;gap:28px}nav a{color:#d9dbe0;text-decoration:none;font-size:.95
 .quotes small{color:#a9adb6;font-size:.9rem}
 .mapwrap{position:relative;margin-top:40px;border-radius:20px;overflow:hidden;min-height:460px;background:#e8e6e1}
 .mapwrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.addr{position:relative;margin:40px;max-width:360px;background:#fff;border-radius:18px;padding:30px;box-shadow:0 20px 50px rgba(0,0,0,.18)}
+.addr{position:relative;margin:40px 40px 40px auto;max-width:360px;background:#fff;border-radius:18px;padding:30px;box-shadow:0 20px 50px rgba(0,0,0,.18)}
 .addr address{font-style:normal;margin-bottom:12px}.addr p{margin:0 0 14px}
 .cta{background:linear-gradient(135deg,#14161b,#22262e);color:#d5d8de;text-align:center;padding:100px 0}
 .cta h2{color:#fff}.cta p{margin:0 0 30px}.cta .btns{justify-content:center}
