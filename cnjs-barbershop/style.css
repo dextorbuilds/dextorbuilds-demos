@@ -75,4 +75,4 @@ footer p{margin:0}
 .hero{padding:96px 0 48px;align-items:flex-end}.hero::before{background:linear-gradient(0deg,rgba(8,7,6,.96) 20%,rgba(8,7,6,.55))}
 .btns .btn{flex:1 1 100%;justify-content:center}
 .mapwrap{min-height:0;display:flex;flex-direction:column}.mapwrap iframe{position:static;height:300px}.addr{margin:0;max-width:none;box-shadow:none}
-.gallery{gap:10px}footer .wrap{flex-direction:column;text-align:center}}
+.gallery{gap:10px}.gallery figcaption{left:8px;bottom:8px;font-size:.66rem;padding:4px 8px;letter-spacing:.05em}footer .wrap{flex-direction:column;text-align:center}}
