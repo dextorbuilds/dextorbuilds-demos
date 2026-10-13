@@ -1,0 +1,17 @@
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#e8edf2;background:#0d1117}
+.wrap{max-width:1100px;margin:0 auto;padding:3.5rem 1.25rem}h1,h2,h3{line-height:1.15;margin:0 0 .6rem;letter-spacing:-.01em}
+h2{font-size:2rem}h3{font-size:1.15rem}.skip{position:absolute;left:-9999px}.skip:focus{left:1rem;top:1rem;background:#fff;color:#000;padding:.5rem;z-index:9}
+.hero{min-height:88vh;display:flex;align-items:center;color:#fff;background:linear-gradient(90deg,rgba(5,10,18,.9),rgba(5,10,18,.45)),url(img/hero.jpg) center/cover}
+.hero h1{font-size:clamp(2.6rem,9vw,5.2rem);font-weight:800;text-transform:uppercase}.eyebrow{letter-spacing:.2em;text-transform:uppercase;color:#4cc3ff;margin:0;font-size:.85rem}
+.rating span{color:#ffc940}.lede{font-size:1.2rem;max-width:40ch;color:#d5dde6}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1rem}
+.btn{display:inline-block;background:#1fa7ff;color:#04121f;font-weight:700;padding:.9rem 1.6rem;border-radius:999px;text-decoration:none}
+.btn.ghost{background:transparent;color:#fff;border:2px solid #fff}.btn.alt{background:#1c2633;color:#fff}
+.btn:hover,.btn:focus-visible{filter:brightness(1.15);outline:3px solid #fff;outline-offset:2px}
+.cards{list-style:none;padding:0;display:grid;gap:1rem}.cards li{background:#161d27;border:1px solid #243041;border-top:3px solid #1fa7ff;border-radius:10px;padding:1.4rem}
+.cards p,.note,.sub{color:#9fb0c2}.band{background:linear-gradient(180deg,#121a25,#0d1117)}
+.quotes{list-style:none;padding:0;display:grid;gap:1.25rem}.quotes li{font-size:1.15rem;border-left:3px solid #1fa7ff;padding-left:1rem}.quotes small{color:#ffc940}
+address{font-style:normal;margin-top:1rem}iframe{width:100%;min-height:320px;border:0;border-radius:10px;margin-top:1.5rem}
+footer{background:#080b10;color:#8a97a6;text-align:center;padding:1.5rem}footer p{margin:.3rem}footer a{color:#4cc3ff}
+.badge{display:inline-block;background:#2F3138;color:#fff;font-size:.8rem;padding:.3rem .8rem;border-radius:999px;border:1px solid #FE7312}.badge b{color:#FE7312}
+@media(min-width:760px){.cards{grid-template-columns:repeat(3,1fr)}.quotes{grid-template-columns:repeat(3,1fr)}.grid2{display:grid;grid-template-columns:1fr 1.3fr;gap:2rem;align-items:start}iframe{margin:0;min-height:400px}}
