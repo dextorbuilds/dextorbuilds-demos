@@ -6,7 +6,7 @@ h2{font-size:clamp(2.6rem,11vw,4.6rem)}h3{font:700 1rem "Space Mono",monospace;m
 .wrap{max-width:1140px;margin:0 auto;padding:0 20px}
 .skip{position:absolute;left:-999px}.skip:focus{left:10px;top:10px;z-index:99;background:#fff;color:#000;padding:8px}
 :focus-visible{outline:3px solid var(--pk);outline-offset:3px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 22px;background:var(--pk);color:var(--jet);font-weight:700;text-decoration:none;text-transform:uppercase;letter-spacing:.05em;font-size:.88rem;border:2px solid var(--pk);transition:background .2s,color .2s}
+.btn{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 22px;background:var(--pk);color:var(--jet);font-weight:700;text-decoration:none;text-transform:uppercase;letter-spacing:.05em;font-size:.88rem;border:2px solid var(--pk);transition:background .2s,color .2s}
 .btn:hover{background:transparent;color:var(--pk)}.btn svg{width:18px;height:18px;fill:currentColor}
 .btn.ol{background:transparent;color:var(--bone);border-color:var(--bone)}.btn.ol:hover{background:var(--bone);color:var(--jet)}
 .top{position:sticky;top:0;z-index:40;background:rgba(17,16,18,.94);backdrop-filter:blur(8px);border-bottom:1px solid #2b282e}
