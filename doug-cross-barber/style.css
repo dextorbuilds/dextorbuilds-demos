@@ -1,0 +1,57 @@
+:root{--navy:#17233d;--navy2:#22325a;--red:#9b2226;--red2:#c0392b;--paper:#f3ecdc;--paper2:#e8dcc2;--ink:#1c1a17;--mut:#6b6355}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:78px}
+body{margin:0;font:400 17px/1.7 "Libre Franklin",system-ui,sans-serif;color:var(--ink);background:var(--paper)}
+h1,h2,h3{font-family:"Abril Fatface",Georgia,serif;font-weight:400;line-height:1.02;margin:0 0 .45em;letter-spacing:.005em}
+h2{font-size:clamp(2.3rem,4.8vw,3.7rem)}h3{font-size:1.45rem}img{display:block;max-width:100%;height:auto}
+.mono{font-family:"Courier Prime",monospace}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;z-index:99;background:#fff;padding:8px 12px}
+:focus-visible{outline:3px solid var(--red2);outline-offset:3px}
+.btn{display:inline-flex;align-items:center;gap:9px;background:var(--red);color:#fff;font:700 1rem "Courier Prime",monospace;text-transform:uppercase;letter-spacing:.06em;text-decoration:none;padding:15px 26px;border:2px solid var(--red);box-shadow:5px 5px 0 var(--ink);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--ink)}.btn svg{width:16px;height:16px;fill:currentColor}
+.btn.pa{background:var(--paper);color:var(--navy);border-color:var(--paper)}.btn.sm{padding:9px 16px;font-size:.85rem;box-shadow:3px 3px 0 #000}.btns{display:flex;flex-wrap:wrap;gap:16px}
+.pole{height:10px;background:repeating-linear-gradient(-45deg,var(--red) 0 14px,#fff 14px 28px,var(--navy2) 28px 42px,#fff 42px 56px)}
+.topbar{position:sticky;top:0;z-index:50;background:var(--navy);color:var(--paper)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:66px;gap:18px}
+.logo{color:var(--paper);text-decoration:none;font:400 1.5rem "Abril Fatface",serif;line-height:1}.logo small{display:block;font:700 .62rem "Courier Prime",monospace;letter-spacing:.3em;color:#e9b8a8;text-transform:uppercase;margin-top:3px}
+nav{display:flex;gap:26px}nav a{color:#d6dcea;text-decoration:none;font:700 .85rem "Courier Prime",monospace;text-transform:uppercase;letter-spacing:.08em}nav a:hover{color:#fff;text-decoration:underline}.xs{display:none}
+.hero{display:grid;grid-template-columns:1.1fr 22px .9fr;min-height:min(calc(100vh - 76px),820px);background:var(--navy);color:var(--paper)}
+.hero .txt{display:flex;flex-direction:column;justify-content:center;padding:70px max(24px,calc((100vw - 1180px)/2 + 24px));padding-right:60px}
+.est{font:700 .82rem "Courier Prime",monospace;letter-spacing:.24em;text-transform:uppercase;color:#e9b8a8;margin:0 0 22px;display:flex;align-items:center;gap:12px}.est::before{content:"";width:40px;height:2px;background:#e9b8a8}
+.hero h1{font-size:clamp(3rem,6.6vw,6rem);color:#fff}.hero h1 em{font-style:normal;color:#f2a99a}
+.lede{font-size:1.12rem;color:#c9d0e0;max-width:520px;margin:0 0 32px}
+.vstripe{background:repeating-linear-gradient(180deg,var(--red) 0 30px,#fff 30px 60px)}
+.photo{position:relative;background:#0e1526 url(img/hero.webp) center 30%/cover no-repeat}
+.photo .cap{position:absolute;right:12px;bottom:12px;font:700 .7rem "Courier Prime",monospace;background:rgba(0,0,0,.5);color:#ddd;padding:3px 8px}
+.rate{margin-top:36px;display:inline-flex;gap:14px;align-items:center;border:2px dashed rgba(243,236,220,.5);padding:12px 18px;color:var(--paper);text-decoration:none;align-self:flex-start}
+.rate b{font:400 2.4rem "Abril Fatface",serif;line-height:1}.rate small{display:block;font:700 .78rem "Courier Prime",monospace;color:#c9d0e0}.stars{color:#f0b429;letter-spacing:2px}
+.sec{padding:100px 0}.kicker{font:700 .82rem "Courier Prime",monospace;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin:0 0 10px}
+.tickets{list-style:none;margin:46px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.tickets li{position:relative;background:#fffaf0;border:2px solid var(--ink);padding:30px 28px 26px;box-shadow:6px 6px 0 var(--navy)}
+.tickets li::after{content:"";position:absolute;left:-2px;right:-2px;top:66px;border-top:2px dashed var(--ink)}
+.tickets .no{font:700 .8rem "Courier Prime",monospace;color:var(--red);letter-spacing:.14em;display:block;margin-bottom:36px}
+.tickets h3{margin-top:4px}.tickets p{margin:0;color:var(--mut)}.note{font:700 .9rem "Courier Prime",monospace;color:var(--mut);margin-top:30px}
+.duo{background:var(--paper2)}.duo .grid{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:24px;align-items:stretch;margin-top:36px}
+.duo .b{background:var(--navy);color:var(--paper);padding:30px;border-radius:2px}.duo .b h3{color:#fff;font-size:2rem;margin:0}.duo .b p{margin:6px 0 0;font-family:"Courier Prime",monospace;color:#e9b8a8}
+.duo .why{padding:6px 0}.duo .why p{margin:0 0 12px;color:var(--mut)}
+.pol{display:flex;flex-wrap:wrap;justify-content:center;gap:28px;margin-top:50px}
+.pol figure{margin:0;background:#fff;padding:12px 12px 16px;box-shadow:0 14px 30px rgba(23,35,61,.18);width:250px;transition:transform .3s}
+.pol figure:nth-child(odd){transform:rotate(-3deg)}.pol figure:nth-child(even){transform:rotate(2.5deg) translateY(16px)}.pol figure:hover{transform:rotate(0) scale(1.04);z-index:2}
+.pol img{width:100%;aspect-ratio:1/1;object-fit:cover}.pol figcaption{font:700 .85rem "Courier Prime",monospace;text-align:center;margin-top:10px;color:var(--navy)}
+.sub{font:400 .9rem "Courier Prime",monospace;color:var(--mut);margin:0}
+.revs{background:var(--navy);color:var(--paper)}.revs h2{color:#fff}.revs .kicker{color:#f2a99a}
+.clips{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;list-style:none;padding:0;margin:46px 0 0}
+.clips li{background:var(--paper);color:var(--ink);padding:30px 26px;position:relative;border-top:8px double var(--red)}
+.clips blockquote{margin:12px 0 18px;font:400 1.05rem/1.6 "Libre Franklin",sans-serif}.clips blockquote::first-letter{font:400 2.6rem/1 "Abril Fatface",serif;float:left;margin:4px 6px 0 0;color:var(--red)}
+.clips small{font:700 .78rem "Courier Prime",monospace;text-transform:uppercase;letter-spacing:.1em;color:var(--mut)}.clips .stars{color:#c48a00}
+.visit{display:grid;grid-template-columns:.85fr 1.15fr;gap:26px;margin-top:40px}
+.sign{background:var(--red);color:#fff;padding:36px;border:4px double #fff;outline:2px solid var(--red)}.sign h3{color:#fff;text-align:center;font-size:1.9rem}
+.sign table{width:100%;border-collapse:collapse;font-family:"Courier Prime",monospace;font-size:1.02rem}.sign th,.sign td{padding:9px 0;border-bottom:1px dotted rgba(255,255,255,.5);text-align:left;font-weight:700}.sign td{text-align:right}.sign .note{color:#fde3dc;text-align:center}
+.mapc{background:#fffaf0;border:2px solid var(--ink);box-shadow:6px 6px 0 var(--navy)}.mapc iframe{width:100%;height:300px;border:0;display:block;border-bottom:2px solid var(--ink)}.mapc .in{padding:24px 28px}address{font-style:normal}.mapc a{color:var(--red)}.mapc .btn{color:#fff}
+.cta{background:var(--paper2);padding:84px 0;text-align:center}.cta .btns{justify-content:center}.cta h2{color:var(--navy)}
+footer{background:var(--ink);color:#b5ad9c;padding:26px 0;font-size:.88rem}footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}footer p{margin:0}
+.badge{background:#2F3138;color:#fff;border:1px solid #FE7312;padding:6px 12px;border-radius:3px}.badge b{color:#FE7312}
+.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.js .reveal.in{opacity:1;transform:none}
+@media (max-width:920px){nav{display:none}.hero{grid-template-columns:1fr;grid-template-rows:auto 16px 340px;min-height:0}.vstripe{background:repeating-linear-gradient(90deg,var(--red) 0 30px,#fff 30px 60px)}.hero .txt{padding:50px 24px}.tickets,.clips{grid-template-columns:1fr}.duo .grid,.visit{grid-template-columns:1fr}.sec{padding:72px 0}}
+@media (max-width:560px){.lg{display:none}.xs{display:inline}.btns .btn{width:100%;justify-content:center}.pol figure{width:44%;padding:7px 7px 10px}.pol{gap:14px}.pol figcaption{font-size:.72rem}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
