@@ -16,7 +16,7 @@ h2{font-size:clamp(3rem,13vw,5.4rem)}h3{font-size:1rem;margin:0}img{display:bloc
 nav.mn{display:none}
 .hero{background:var(--bt);overflow:hidden;position:relative}
 .hero .wrap{padding-top:22px;padding-bottom:34px}
-.hero h1{font-size:clamp(5.2rem,30vw,12rem);color:var(--tl2);margin:0}.hero h1 small{display:block;font-size:.34em;color:var(--tl);letter-spacing:.06em}
+.hero h1{font-size:clamp(5.2rem,30vw,12rem);color:var(--tl2);margin:0}.hero h1 small{display:block;font-size:.3em;color:var(--tl);letter-spacing:.06em}
 .ph{position:relative;margin:16px 0 18px}.ph img{width:100%;aspect-ratio:5/4;object-fit:cover;object-position:50% 35%;border-radius:120px 120px 10px 10px}
 .ph .cap{position:absolute;left:12px;bottom:10px;background:rgba(255,255,255,.85);font-size:.68rem;padding:2px 8px;border-radius:4px}
 .ph .rt{position:absolute;right:10px;top:-14px;background:var(--tl2);color:var(--bt);border-radius:50%;width:98px;height:98px;display:grid;place-items:center;text-align:center;font-size:.7rem;font-weight:700;line-height:1.15;text-decoration:none;transform:rotate(-8deg)}.ph .rt b{display:block;font:400 2.1rem "Bebas Neue",sans-serif}
@@ -49,7 +49,7 @@ footer{background:var(--tl2);color:#a9c4c0;padding:24px 0;font-size:.84rem}foote
 .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-top:50px;padding-bottom:60px}.hero h1{font-size:clamp(7rem,15vw,13rem)}.ph{grid-row:span 2;margin:0}.ph img{aspect-ratio:4/5;max-height:600px}
 .btns{grid-template-columns:auto auto;justify-content:start}.svc{columns:2;column-gap:40px}.svc li{break-inside:avoid}
 .me .wrap{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.stats{margin:0}
-.gal{grid-template-columns:repeat(4,1fr)}.gal .w{grid-column:span 2}.gal img,.gal .w img{aspect-ratio:auto;height:340px}
+.gal{grid-template-columns:repeat(3,1fr)}.gal .w{grid-column:span 2}.gal img,.gal .w img{aspect-ratio:auto;height:340px}
 .swipe{display:grid;grid-template-columns:repeat(4,1fr);overflow:visible;margin:22px 0 0;padding:0}.swipe li{width:auto;max-width:none}.hint{display:none}
 .info{grid-template-columns:1fr 1.4fr}.cta{padding:80px 40px}.cta .btns{justify-content:center}footer .wrap{flex-direction:row;justify-content:space-between;align-items:center}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
