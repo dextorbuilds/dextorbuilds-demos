@@ -42,7 +42,7 @@ nav{display:flex;gap:26px}nav a{color:#d6dcea;text-decoration:none;font:700 .85r
 .revs{background:var(--navy);color:var(--paper)}.revs h2{color:#fff}.revs .kicker{color:#f2a99a}
 .clips{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;list-style:none;padding:0;margin:46px 0 0}
 .clips li{background:var(--paper);color:var(--ink);padding:30px 26px;position:relative;border-top:8px double var(--red)}
-.clips blockquote{margin:12px 0 18px;font:400 1.05rem/1.6 "Libre Franklin",sans-serif}.clips blockquote::first-letter{font:400 2.6rem/1 "Abril Fatface",serif;float:left;margin:4px 6px 0 0;color:var(--red)}
+.clips blockquote{margin:12px 0 18px;font:400 1.05rem/1.6 "Libre Franklin",sans-serif}.clips blockquote::before{content:"\201C";display:block;font:400 3.4rem/0.8 "Abril Fatface",serif;color:var(--red);margin-bottom:4px}
 .clips small{font:700 .78rem "Courier Prime",monospace;text-transform:uppercase;letter-spacing:.1em;color:var(--mut)}.clips .stars{color:#c48a00}
 .visit{display:grid;grid-template-columns:.85fr 1.15fr;gap:26px;margin-top:40px}
 .sign{background:var(--red);color:#fff;padding:36px;border:4px double #fff;outline:2px solid var(--red)}.sign h3{color:#fff;text-align:center;font-size:1.9rem}
