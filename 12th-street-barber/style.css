@@ -53,3 +53,4 @@ footer{background:var(--ink);color:#bfae9c;padding:26px 0;font-size:.9rem}footer
 @media (max-width:940px){nav{display:none}.plates{grid-template-columns:1fr 1fr}.allen .wrap,.visit{grid-template-columns:1fr}.bubbles{grid-template-columns:1fr}.sec{padding:72px 0}.allen img{max-width:340px}}
 @media (max-width:560px){.plates{grid-template-columns:1fr}.post{padding:34px 26px 28px}.stamp{right:-6px;top:-44px;width:96px;height:96px}.stamp b{font-size:1.6rem}.hero{padding-top:120px}.lg{display:none}.xs{display:inline}.btns .btn{width:100%;justify-content:center}.strip figure{flex-basis:76vw}.logo{font-size:1rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:560px){.stamp{top:-62px;right:-4px;width:88px;height:88px}.stamp b{font-size:1.4rem}.stamp small{font-size:.56rem}.hero{padding-top:140px}}
