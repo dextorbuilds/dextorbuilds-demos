@@ -55,3 +55,4 @@ footer{background:var(--ink);color:#b5ad9c;padding:26px 0;font-size:.88rem}foote
 @media (max-width:920px){nav{display:none}.hero{grid-template-columns:1fr;grid-template-rows:auto 16px 340px;min-height:0}.vstripe{background:repeating-linear-gradient(90deg,var(--red) 0 30px,#fff 30px 60px)}.hero .txt{padding:50px 24px}.tickets,.clips{grid-template-columns:1fr}.duo .grid,.visit{grid-template-columns:1fr}.sec{padding:72px 0}}
 @media (max-width:560px){.lg{display:none}.xs{display:inline}.btns .btn{width:100%;justify-content:center}.pol figure{width:44%;padding:7px 7px 10px}.pol{gap:14px}.pol figcaption{font-size:.72rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.sec.wrap{padding-left:24px;padding-right:24px}
