@@ -14,9 +14,9 @@ h2{font-size:clamp(2rem,8vw,3.4rem)}h3{font-family:"Albert Sans",sans-serif;font
 .logo{color:var(--ink);text-decoration:none;font:400 1.35rem Gloock,serif}.logo i{font-style:normal;color:var(--ch)}
 .top .call{display:inline-flex;align-items:center;gap:6px;background:var(--ink);color:#fff;font-weight:700;text-decoration:none;padding:8px 14px;border-radius:10px;font-size:.9rem}.top .call svg{width:15px;height:15px;fill:currentColor}
 nav.mn{display:none}
-.hero{padding:22px 0 40px;background:var(--mi)}
-.hero .ph{position:relative;margin:0 0 22px}
-.hero .ph img{width:100%;aspect-ratio:4/4.4;object-fit:cover;object-position:50% 55%;border-radius:22px;border:2px solid var(--ink)}
+.hero{padding:16px 0 40px;background:var(--mi)}
+.hero .ph{position:relative;margin:0 0 16px}
+.hero .ph img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 60%;border-radius:22px;border:2px solid var(--ink)}
 .sticker{position:absolute;right:-6px;top:-10px;width:96px;height:96px;border-radius:50%;background:var(--ch);color:#fff;border:2px solid var(--ink);display:grid;place-items:center;text-align:center;transform:rotate(10deg);font-weight:700;font-size:.72rem;line-height:1.1;text-decoration:none}.sticker b{display:block;font:400 1.7rem Gloock,serif}
 .cap{position:absolute;left:12px;bottom:10px;background:rgba(255,255,255,.85);font-size:.7rem;padding:2px 8px;border-radius:6px}
 .tag{display:inline-block;background:#fff;border:2px solid var(--ink);border-radius:999px;padding:3px 12px;font-weight:700;font-size:.8rem;margin:0 0 12px}
