@@ -73,3 +73,4 @@ footer p{margin:0}footer a{color:#d5d8de}
 .btn{color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.25)}
 .badge{background:#2F3138!important;color:#fff!important}.badge b{color:#FE7312!important}
 .herocap{position:absolute;right:16px;bottom:12px;z-index:2;color:rgba(255,255,255,.6);font-size:.75rem}.hero-in{position:relative;z-index:1}
+.quotes blockquote{font-family:Inter,system-ui,sans-serif;font-size:1.08rem;font-weight:500}
