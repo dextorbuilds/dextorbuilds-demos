@@ -41,7 +41,7 @@ nav{display:flex;gap:26px}nav a{color:#d9e2dc;text-decoration:none;font-size:.92
 .team li{flex:1;min-width:150px;background:#fff;border:1px solid var(--iv2);border-radius:14px;padding:20px;display:flex;gap:14px;align-items:center}
 .team .mono{width:52px;height:52px;border-radius:50%;background:var(--g);color:var(--gold2);display:grid;place-items:center;font:600 1.1rem Fraunces,serif;flex:none}
 .team h3{margin:0;color:var(--g)}.team p{margin:0;font-size:.85rem;color:var(--mut)}
-.masonry{columns:3 300px;column-gap:18px;margin-top:34px}
+.masonry{columns:4 220px;column-gap:18px;margin-top:34px}
 .masonry figure{margin:0 0 18px;break-inside:avoid;position:relative;border-radius:14px;overflow:hidden}
 .masonry img{width:100%;height:auto;transition:transform .6s}.masonry figure:hover img{transform:scale(1.04)}
 .masonry figcaption{position:absolute;left:12px;bottom:12px;background:rgba(15,42,34,.85);color:var(--iv);font-size:.8rem;padding:5px 12px;border-radius:999px}
