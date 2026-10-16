@@ -28,7 +28,7 @@ h2{margin:0 0 24px;font:400 clamp(2rem,8.5vw,3.2rem)/1.05 "Dela Gothic One",sans
 .svc li:last-child{border-bottom:2px solid var(--ink)}
 .n{font:400 .9rem "Dela Gothic One";color:var(--or);filter:brightness(.88);padding-top:4px}
 .svc h3{margin:0 0 4px;font:400 1.15rem "Dela Gothic One"}.svc p{margin:0;color:var(--mut);font-size:.92rem}
-.pr{text-align:right}.pr b{display:block;font:400 1.5rem "Dela Gothic One"}.pr small{color:var(--mut)}
+.pr{text-align:right}.pr small{color:var(--mut);font-weight:600;white-space:nowrap}.note a{color:#c23f00;font-weight:700}
 .alt{max-width:none;background:var(--or2)}.alt>*{max-width:1000px;margin-left:auto;margin-right:auto}.alt .kick{color:var(--ink);filter:none}
 .gal{display:grid;gap:12px}.gal figure{margin:0;border-radius:20px;overflow:hidden}.gal img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
 .rv{max-width:none;background:var(--ink);color:#fff}.rv>*{max-width:1000px;margin-left:auto;margin-right:auto}
