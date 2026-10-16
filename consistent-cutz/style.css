@@ -1,0 +1,56 @@
+:root{--vi:#4b27d6;--vi2:#2f14a3;--li:#ece8ff;--ink:#141225;--cit:#ffb703;--wh:#fff;--mut:#5b5875}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:400 16px/1.55 Lexend,system-ui,sans-serif;background:var(--wh);color:var(--ink);padding-bottom:86px;-webkit-text-size-adjust:100%}
+img{display:block;max-width:100%}a{color:inherit}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+.top{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:rgba(236,232,255,.92);backdrop-filter:blur(8px)}
+.logo{font:400 1.2rem "Bagel Fat One",sans-serif;color:var(--vi);text-decoration:none}
+.bk{background:var(--vi);color:#fff;text-decoration:none;font-weight:600;font-size:.86rem;padding:9px 20px;border-radius:99px}
+.hero{background:var(--li);padding:76px 20px 34px;overflow:hidden}
+.wrap{max-width:1040px;margin:0 auto;display:flex;flex-direction:column;gap:26px}
+.loc{margin:0 0 8px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:.74rem;color:var(--vi)}
+h1{margin:0 0 14px;font:400 clamp(3.4rem,17vw,7rem)/.9 "Bagel Fat One",sans-serif;color:var(--ink)}
+h1 span{color:var(--vi);-webkit-text-stroke:0;text-shadow:4px 4px 0 var(--cit)}
+.lede{margin:0 0 14px;max-width:32ch}
+.rt{display:inline-block;margin-bottom:16px;background:#fff;text-decoration:none;padding:7px 15px;border-radius:99px;font-size:.84rem;font-weight:500;border:2px solid var(--ink)}.rt b{color:var(--vi);margin-right:4px}
+.btns{display:flex;flex-direction:column;gap:10px}
+.btn{display:flex;align-items:center;justify-content:center;gap:9px;padding:15px 18px;border-radius:16px;background:var(--vi);color:#fff;font-weight:600;text-decoration:none;border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink)}
+.btn.gh{background:#fff;color:var(--ink)}.btn.sm{margin-top:12px;padding:12px 18px}
+.btn svg,.dock svg{width:19px;height:19px;fill:currentColor;flex:none}
+.sticker{margin:0 auto;width:min(74%,320px);transform:rotate(3deg);background:#fff;padding:10px 10px 8px;border:3px solid var(--ink);border-radius:24px;box-shadow:8px 8px 0 var(--vi)}
+.sticker img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;border-radius:14px}
+.sticker figcaption{margin-top:6px;text-align:center;font-size:.7rem;color:var(--mut)}
+.strip{background:var(--ink);color:var(--cit);overflow:hidden;white-space:nowrap;padding:10px 0;font:400 1.05rem "Bagel Fat One";letter-spacing:.04em}.strip span{display:inline-block;padding-left:12px}
+.sec{padding:56px 20px;max-width:1040px;margin:0 auto}
+.kick{margin:0 0 8px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:.74rem;color:var(--vi)}
+h2{margin:0 0 24px;font:400 clamp(2.4rem,11vw,4rem)/.95 "Bagel Fat One",sans-serif}
+.note{font-size:.86rem;color:var(--mut);margin-top:18px}.note a{color:var(--vi);font-weight:700}
+.svc{list-style:none;padding:0;margin:0;display:grid;gap:10px;counter-reset:s}
+.svc li{display:flex;align-items:center;gap:14px;padding:14px 16px;border:2px solid var(--ink);border-radius:16px;font-weight:600;background:var(--li)}
+.svc li span{font:400 1.1rem "Bagel Fat One";color:#fff;background:var(--vi);min-width:38px;height:38px;border-radius:50%;display:grid;place-items:center;flex:none}
+.pop{max-width:none;background:var(--cit)}.pop>*{max-width:1000px;margin-left:auto;margin-right:auto}.pop .kick{color:var(--ink)}
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:12px}.gal figure{margin:0;border:3px solid var(--ink);border-radius:20px;overflow:hidden;background:#fff;box-shadow:4px 4px 0 var(--ink)}.gal .w{grid-column:1/-1}.gal img{width:100%;height:100%;object-fit:cover;aspect-ratio:3/2}.gal figure:nth-child(2) img{aspect-ratio:2/3}.gal figure:nth-child(3) img{aspect-ratio:2/3;object-position:30% 50%}
+.rv{max-width:none;background:var(--vi);color:#fff;padding-left:0;padding-right:0}.rv>*{max-width:1000px;margin-left:auto;margin-right:auto;padding-left:20px;padding-right:20px}.rv .kick{color:var(--cit)}
+.big{display:flex;align-items:center;gap:14px;margin-bottom:20px}.big b{font:400 4.4rem/1 "Bagel Fat One";color:var(--cit)}.stars{color:var(--cit);letter-spacing:2px}
+.rv .swipe{list-style:none;margin:0 auto;padding:0 20px 10px;max-width:none;display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;align-items:stretch}.swipe::-webkit-scrollbar{display:none}
+.swipe li{flex:0 0 82%;scroll-snap-align:center;background:#fff;color:var(--ink);border:3px solid var(--ink);border-radius:22px;padding:22px 20px 18px;display:flex;flex-direction:column;gap:6px;box-shadow:5px 5px 0 var(--ink)}
+.q{font:400 3.4rem/.6 "Bagel Fat One";color:var(--vi);height:26px}blockquote{margin:0;font-size:.97rem;line-height:1.5}.swipe small{margin-top:auto;padding-top:8px;font-weight:700;color:var(--vi);font-size:.8rem}
+.hint{font-size:.78rem;color:#cfc6ff;margin-top:10px}
+.card{background:#fff;border:3px solid var(--ink);border-radius:22px;overflow:hidden;box-shadow:5px 5px 0 var(--vi)}
+.map iframe{width:100%;height:240px;border:0;display:block}.map .in{padding:18px}.map h3{margin:0 0 6px;font:400 1.35rem "Bagel Fat One"}.map address{font-style:normal}.small{font-size:.85rem;color:var(--mut);margin:8px 0}.map p a{color:var(--vi);font-weight:700}
+.cta{background:var(--li);text-align:center;padding:60px 20px}.cta .btns{max-width:420px;margin:22px auto 0}
+footer{background:var(--ink);color:#bdb8d6;text-align:center;padding:26px 18px 30px;font-size:.84rem}footer p{margin:6px 0}
+.badge{display:inline-block;border:1px solid #4a4666;border-radius:99px;padding:5px 14px;color:#fff;font-size:.78rem}.badge b{color:var(--cit)}
+.dock{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:40;display:flex;gap:4px;background:#fff;border:3px solid var(--ink);border-radius:20px;padding:5px;box-shadow:4px 4px 0 var(--ink)}
+.dock a{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:11px 4px;border-radius:14px;text-decoration:none;font-weight:600;font-size:.9rem}.dock a:first-child{background:var(--vi);color:#fff;flex:1.4}
+.js .fx{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}.js .fx.on{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
+@media(min-width:860px){
+body{padding-bottom:0}.dock{display:none}.top{padding:14px 40px}
+.hero{padding:120px 40px 70px}.wrap{flex-direction:row;align-items:center;gap:70px}.txt{flex:1.2}.sticker{flex:.8;width:auto;max-width:340px;margin:0}
+h1{font-size:clamp(5rem,9vw,8rem)}.btns{flex-direction:row}.btn{padding:15px 26px}
+.sec{padding:90px 40px}.svc{grid-template-columns:1fr 1fr 1fr}
+.gal{grid-template-columns:1.5fr 1fr 1fr}.gal .w{grid-column:auto}.gal figure:nth-child(1) img{aspect-ratio:2/3}.gal figure:nth-child(1) img{object-position:40% 50%}
+.rv>*{padding-left:40px;padding-right:40px}.rv .swipe{padding:0 40px 10px;flex-wrap:wrap;justify-content:center}.swipe li{flex:0 0 calc(33.3% - 10px);min-width:260px}.hint{display:none}
+.map{display:grid;grid-template-columns:1.3fr 1fr}.map iframe{height:100%;min-height:320px}
+.cta .btns{flex-direction:row;max-width:none;justify-content:center}}
