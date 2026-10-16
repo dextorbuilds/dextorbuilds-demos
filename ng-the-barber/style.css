@@ -1,0 +1,57 @@
+:root{--ink:#0f1316;--or:#ff6a1f;--or2:#ffd9c4;--bone:#f2f0ea;--mut:#646a6e;--line:#d9d5ca}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:400 16px/1.55 "Hanken Grotesk",system-ui,sans-serif;background:var(--bone);color:var(--ink);padding-bottom:86px;-webkit-text-size-adjust:100%}
+img{display:block;max-width:100%}a{color:inherit}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+.top{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:rgba(15,19,22,.85);backdrop-filter:blur(8px)}
+.logo{font:400 1.5rem "Dela Gothic One",sans-serif;color:#fff;text-decoration:none}.logo i{color:var(--or);font-style:normal}
+.bk{background:var(--or);color:var(--ink);text-decoration:none;font-weight:700;font-size:.86rem;padding:9px 14px;border-radius:10px}
+.hero{background:var(--ink);color:#fff;padding-top:56px}
+.pic{margin:0;position:relative;height:300px;overflow:hidden;border-radius:0 0 36px 36px}
+.pic img{width:100%;height:100%;object-fit:cover;object-position:60% 50%}
+.pic figcaption{position:absolute;left:14px;bottom:12px;font-size:.68rem;background:rgba(15,19,22,.7);padding:3px 9px;border-radius:99px}
+.txt{padding:26px 20px 40px}
+.loc{margin:0 0 8px;color:var(--or);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:.78rem}
+h1{margin:0 0 14px;font:400 clamp(3rem,16vw,6.5rem)/.98 "Dela Gothic One",sans-serif}
+.lede{margin:0 0 16px;color:#cfd3d5;max-width:34ch}
+.rt{display:inline-block;margin-bottom:18px;background:#1c2226;border:1px solid #333b40;color:#fff;text-decoration:none;padding:7px 14px;border-radius:99px;font-size:.84rem}.rt b{color:var(--or);margin-right:4px}
+.btns{display:flex;flex-direction:column;gap:10px}
+.btn{display:flex;align-items:center;justify-content:center;gap:9px;padding:15px 18px;border-radius:12px;background:var(--or);color:var(--ink);font-weight:700;text-decoration:none;border:2px solid var(--or)}
+.btn.gh{background:transparent;color:inherit;border-color:currentColor}
+.btn svg,.dock svg{width:19px;height:19px;fill:currentColor;flex:none}
+.sec{padding:56px 20px;max-width:1040px;margin:0 auto}
+.kick{margin:0 0 6px;color:var(--or);font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:.76rem;filter:brightness(.88)}
+h2{margin:0 0 24px;font:400 clamp(2rem,8.5vw,3.2rem)/1.05 "Dela Gothic One",sans-serif}
+.note{font-size:.84rem;color:var(--mut);margin-top:16px}
+.svc{list-style:none;margin:0;padding:0;counter-reset:x}
+.svc li{display:grid;grid-template-columns:34px 1fr auto;gap:12px;padding:18px 0;border-top:2px solid var(--ink);align-items:start}
+.svc li:last-child{border-bottom:2px solid var(--ink)}
+.n{font:400 .9rem "Dela Gothic One";color:var(--or);filter:brightness(.88);padding-top:4px}
+.svc h3{margin:0 0 4px;font:400 1.15rem "Dela Gothic One"}.svc p{margin:0;color:var(--mut);font-size:.92rem}
+.pr{text-align:right}.pr b{display:block;font:400 1.5rem "Dela Gothic One"}.pr small{color:var(--mut)}
+.alt{max-width:none;background:var(--or2)}.alt>*{max-width:1000px;margin-left:auto;margin-right:auto}.alt .kick{color:var(--ink);filter:none}
+.gal{display:grid;gap:12px}.gal figure{margin:0;border-radius:20px;overflow:hidden}.gal img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.rv{max-width:none;background:var(--ink);color:#fff}.rv>*{max-width:1000px;margin-left:auto;margin-right:auto}
+.big{display:flex;align-items:center;gap:14px;margin-bottom:22px}.big b{font:400 4rem/1 "Dela Gothic One";color:var(--or)}.stars{color:var(--or);letter-spacing:2px}
+.cards{list-style:none;padding:0;display:grid;gap:14px}
+.cards li{background:#1a2025;border-left:5px solid var(--or);border-radius:6px 18px 18px 6px;padding:20px;display:flex;flex-direction:column;gap:10px}
+blockquote{margin:0;font-size:1.02rem;line-height:1.55}.cards small{color:#9aa3a8}
+.card{background:#fff;border:2px solid var(--ink);border-radius:20px;overflow:hidden}
+.map iframe{width:100%;height:250px;border:0;display:block}.map .in{padding:18px}.map h3{margin:0 0 6px;font:400 1.25rem "Dela Gothic One"}.map address{font-style:normal}.small{font-size:.84rem;color:var(--mut)}.map a{font-weight:700;color:#c23f00}
+.cta{background:var(--or);color:var(--ink);text-align:center;padding:60px 20px}.cta h2{margin-bottom:10px}
+.cta .btns{max-width:420px;margin:22px auto 0}.cta .btn{background:var(--ink);color:#fff;border-color:var(--ink)}.cta .btn.gh{background:transparent;color:var(--ink)}
+footer{background:var(--ink);color:#aeb4b8;text-align:center;padding:26px 18px 30px;font-size:.84rem}footer p{margin:6px 0}
+.badge{display:inline-block;border:1px solid #3a4348;border-radius:99px;padding:5px 14px;color:#fff;font-size:.78rem}.badge b{color:var(--or)}
+.dock{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:40;display:flex;gap:4px;background:var(--ink);border-radius:16px;padding:5px;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.dock a{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:12px 4px;border-radius:12px;text-decoration:none;font-weight:700;font-size:.9rem;color:#fff}.dock a:first-child{background:var(--or);color:var(--ink);flex:2}
+.js .fx{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}.js .fx.on{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
+@media(min-width:860px){
+body{padding-bottom:0}.dock{display:none}.top{padding:14px 40px}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;min-height:min(92vh,760px);padding-top:0}
+.pic{height:auto;border-radius:0 0 0 0;order:2;border-radius:0 0 0 60px}.pic img{object-position:65% 50%}
+.txt{align-self:center;padding:120px 60px 60px max(40px,calc((100vw - 1100px)/2))}
+h1{font-size:clamp(4.4rem,8vw,7.4rem)}.btns{flex-direction:row}.btn{padding:15px 26px}
+.sec{padding:90px 40px}.svc li{grid-template-columns:50px 1fr auto;padding:24px 0}
+.gal{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr 1fr}.rv{padding-left:40px;padding-right:40px}
+.cta .btns{flex-direction:row;max-width:none;justify-content:center}.map{display:grid;grid-template-columns:1.4fr 1fr}.map iframe{height:100%;min-height:300px}}
