@@ -1,0 +1,47 @@
+:root{--es:#241a17;--ta:#d9cdbf;--cr:#f7f1e8;--co:#c4704f;--mu:#6f6258}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:400 16px/1.65 "Schibsted Grotesk",system-ui,sans-serif;background:var(--cr);color:var(--es);padding-bottom:86px;-webkit-text-size-adjust:100%}
+img{display:block;max-width:100%;height:auto}a{color:inherit}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+.top{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:10px 18px;background:rgba(247,241,232,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--ta)}
+.logo{font:italic 400 1.45rem "Instrument Serif",serif;text-decoration:none}
+.bk{background:var(--es);color:var(--cr);text-decoration:none;font-weight:700;font-size:.84rem;padding:9px 22px;border-radius:99px}
+.hero{padding:84px 20px 34px;position:relative}
+.loc{margin:0 0 6px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:.7rem;color:var(--co)}
+h1{margin:0;font:400 clamp(4.2rem,25vw,8.6rem)/.84 "Instrument Serif",serif;letter-spacing:-.025em;position:relative;z-index:2}
+h1 em,h2 em{font-style:italic;color:var(--co)}
+.leaf{position:relative;margin:-70px 0 0 auto;width:68%;max-width:340px;aspect-ratio:3/4.1;border-radius:100% 0 100% 0/70% 0 70% 0;overflow:hidden;background:var(--ta)}
+.leaf img{width:100%;height:100%;object-fit:cover;object-position:35% 40%}
+.leaf figcaption{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);white-space:nowrap;font-size:.62rem;background:rgba(36,26,23,.8);color:var(--cr);padding:3px 10px;border-radius:99px}
+.txt{margin-top:26px}
+.rt{display:inline-flex;gap:10px;align-items:center;text-decoration:none;font-weight:500;font-size:.9rem;border:1px solid var(--es);border-radius:99px;padding:6px 16px}.rt b{color:var(--co);font:italic 400 1.2rem "Instrument Serif"}
+.lede{margin:14px 0 18px;font-size:1.05rem;max-width:34ch}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:9px;background:var(--es);color:var(--cr);text-decoration:none;font-weight:700;padding:13px 22px;border-radius:99px;font-size:.95rem}
+.btn svg{width:18px;height:18px;fill:currentColor}.btn.gh{background:transparent;color:var(--es);border:1px solid var(--es)}
+.sec{padding:60px 20px;max-width:980px;margin:0 auto}
+.kick{margin:0 0 8px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:.7rem;color:var(--co)}
+h2{margin:0 0 24px;font:400 clamp(2.6rem,13vw,4.4rem)/.92 "Instrument Serif",serif;letter-spacing:-.02em}
+.chips{list-style:none;margin:0 0 14px;padding:0;display:flex;flex-wrap:wrap;gap:8px}.chips li{background:var(--ta);border-radius:99px;padding:7px 16px;font-size:.88rem;font-weight:500}
+.note,.small{font-size:.8rem;color:var(--mu);margin:14px 0 0}
+.gal{max-width:none;background:var(--ta)}.gal>*{max-width:940px;margin-left:auto;margin-right:auto}
+.lf{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}.lf figure{margin:0;overflow:hidden;background:var(--cr)}.lf img{width:100%;height:100%;object-fit:cover}
+.lf .a{grid-row:1/3;border-radius:100% 0 100% 0/50% 0 50% 0}.lf .a img{aspect-ratio:2/3}.lf .b{border-radius:0 100% 0 100%/0 60% 0 60%}.lf .b img{aspect-ratio:1/1}.lf .c{border-radius:100% 0 100% 0/60% 0 60% 0}.lf .c img{aspect-ratio:1/1}
+.rv{max-width:760px}
+.big{display:flex;align-items:center;gap:16px;margin-bottom:30px}.big b{font:400 5rem/1 "Instrument Serif";color:var(--co)}.stars{color:var(--co);letter-spacing:.1em}
+.pq{list-style:none;margin:0;padding:0}
+.pq li{padding:30px 0;border-top:1px solid var(--es)}.pq li:last-child{border-bottom:1px solid var(--es)}
+.ix{display:block;font-weight:700;font-size:.72rem;letter-spacing:.18em;color:var(--mu);margin-bottom:10px}
+.pq blockquote{margin:0 0 14px;font:400 1.4rem/1.35 "Instrument Serif",serif}
+.pq footer{padding:0;font-size:.8rem;color:var(--mu);text-align:left}.pq small{font-weight:700}
+.info{display:grid;gap:16px}.card{background:#fff;border-radius:24px;padding:24px;overflow:hidden;border:1px solid var(--ta)}.card h3{margin:0 0 10px;font:400 1.7rem "Instrument Serif"}
+table{width:100%;border-collapse:collapse}th{text-align:left;font-weight:700}th,td{padding:10px 0;border-bottom:1px solid var(--ta)}
+.map{padding:0}.map iframe{width:100%;height:240px;border:0;display:block}.map .in{padding:22px}address{font-style:normal;margin-bottom:8px}.in a{font-weight:700;text-decoration-color:var(--co);text-underline-offset:3px}
+.cta{background:var(--es);color:var(--cr);text-align:center;padding:72px 20px}.cta h2 em{color:#e9a98c}.cta .btns{justify-content:center}.cta .btn{background:var(--cr);color:var(--es)}.cta .btn.gh{background:transparent;color:var(--cr);border-color:var(--cr)}
+footer{padding:28px 20px 12px;text-align:center;font-size:.8rem;color:var(--mu)}.badge{display:inline-block;border:1px solid var(--mu);border-radius:99px;padding:5px 14px}.badge b{color:var(--co)}
+.dock{position:fixed;left:10px;right:10px;bottom:max(10px,env(safe-area-inset-bottom));z-index:40;display:grid;grid-template-columns:repeat(3,1fr);background:var(--es);border-radius:99px;padding:6px;box-shadow:0 8px 30px #241a1755}
+.dock a{display:flex;flex-direction:column;align-items:center;gap:1px;color:var(--cr);text-decoration:none;font-weight:700;font-size:.72rem;padding:7px 0;border-radius:99px}.dock a:first-child{background:var(--co)}.dock svg{width:20px;height:20px;fill:currentColor}
+.js .fx{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}.js .fx.on{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.js .fx{opacity:1;transform:none;transition:none}}
+@media(min-width:860px){.top{padding:12px 6vw}.hero{display:grid;grid-template-columns:1.1fr .9fr;column-gap:40px;padding:110px 6vw 70px;align-items:center}.hero>*{grid-column:1}.leaf{grid-column:2;grid-row:1/5;margin:0;width:100%;max-width:420px;justify-self:center}
+.lf{grid-template-columns:.9fr 1.1fr 1.1fr}.lf .a{grid-row:auto}.lf .a img{aspect-ratio:3/4}.lf .b img,.lf .c img{aspect-ratio:3/4}.info{grid-template-columns:1fr 1.4fr}.dock{left:50%;right:auto;width:420px;transform:translateX(-50%)}}
