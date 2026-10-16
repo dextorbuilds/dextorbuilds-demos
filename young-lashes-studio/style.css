@@ -10,9 +10,9 @@ img{display:block;max-width:100%;height:auto}a{color:inherit}
 .loc{margin:0 0 6px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:.7rem;color:var(--co)}
 h1{margin:0;font:400 clamp(4.2rem,25vw,8.6rem)/.84 "Instrument Serif",serif;letter-spacing:-.025em;position:relative;z-index:2}
 h1 em,h2 em{font-style:italic;color:var(--co)}
-.leaf{position:relative;margin:-70px 0 0 auto;width:68%;max-width:340px;aspect-ratio:3/4.1;border-radius:100% 0 100% 0/70% 0 70% 0;overflow:hidden;background:var(--ta)}
-.leaf img{width:100%;height:100%;object-fit:cover;object-position:35% 40%}
-.leaf figcaption{position:absolute;right:10px;top:10px;white-space:nowrap;font-size:.62rem;background:rgba(36,26,23,.8);color:var(--cr);padding:3px 10px;border-radius:99px}
+.leaf{position:relative;margin:-70px 0 0 auto;width:68%;max-width:340px}
+.leaf img{width:100%;aspect-ratio:3/4.1;object-fit:cover;object-position:35% 40%;border-radius:100% 0 100% 0/70% 0 70% 0;background:var(--ta)}
+.leaf figcaption{margin-top:8px;text-align:right;font-size:.68rem;color:var(--mu)}
 .txt{margin-top:26px}
 .rt{display:inline-flex;gap:10px;align-items:center;text-decoration:none;font-weight:500;font-size:.9rem;border:1px solid var(--es);border-radius:99px;padding:6px 16px}.rt b{color:var(--co);font:italic 400 1.2rem "Instrument Serif"}
 .lede{margin:14px 0 18px;font-size:1.05rem;max-width:34ch}
