@@ -58,3 +58,4 @@ body{padding-bottom:0}.dock{display:none}.top{padding:14px 40px}.hero{min-height
 .rv{padding-left:0;padding-right:0}.swipe{justify-content:center}.swipe li{flex:0 0 300px}.hint{display:none}
 .card{max-width:1000px}#visit{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;max-width:1100px;margin:0 auto}#visit>.kick,#visit>h2{grid-column:1/-1}
 .cta .btns{flex-direction:row;max-width:none;justify-content:center}}
+.sec>.kick{margin:0 auto 6px}
