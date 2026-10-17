@@ -30,7 +30,7 @@ h2{font-size:clamp(46px,13vw,84px)}
 .big{display:flex;align-items:center;gap:14px;margin-top:22px}.big b{font:700 84px Oswald;color:var(--y);line-height:1}
 .cards{list-style:none;padding:0;display:grid;gap:16px;margin-top:26px}
 .cards li{position:relative;background:var(--y);color:var(--ink);padding:26px 20px 18px;border:3px solid var(--w);box-shadow:6px 6px 0 var(--w)}
-.no{position:absolute;top:6px;right:14px;font:700 40px Oswald;opacity:.25}
+.no{position:absolute;bottom:8px;right:14px;font:700 34px Oswald;opacity:.22}
 blockquote{font:600 20px/1.35 'Plus Jakarta Sans',sans-serif;margin-bottom:14px}.cards footer{font-size:13px;display:flex;gap:10px;align-items:center;font-weight:600}.cards .stars{color:var(--ink)}
 .info{display:grid;gap:16px;margin-top:26px}.card{background:var(--w);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);overflow:hidden}
 .card h3{font-size:30px}.info>.card:first-child{padding:24px}
