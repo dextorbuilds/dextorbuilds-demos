@@ -1,0 +1,52 @@
+:root{--bt:#f5ebb8;--bt2:#ebdd93;--ink:#1c1b19;--or:#b8348f;--or2:#8f2370;--card:#fbf5d6;--mut:#645e45}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--bt);color:var(--ink);font:400 16px/1.65 'Hanken Grotesk',system-ui,sans-serif;padding-bottom:90px;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}a{color:inherit}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+.stars{color:var(--or);letter-spacing:2px}
+.top{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:11px 20px;background:var(--bt);border-bottom:2px solid var(--ink)}
+.logo{font:700 22px/1 'Bodoni Moda',serif;text-decoration:none;font-style:italic}
+.bk{font:700 12px 'Hanken Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;background:var(--ink);color:var(--bt);padding:8px 20px}
+.hero .in{padding:32px 20px 6px}
+.loc,.kick{font:700 12px 'Hanken Grotesk',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:var(--or2)}
+h1{font:700 clamp(56px,17vw,108px)/.95 'Bodoni Moda',serif;margin:12px 0 14px;letter-spacing:-.01em}h1 em{color:var(--or);font-weight:500}
+.lede{font-weight:600;font-size:18px}
+.rt{display:inline-flex;gap:10px;align-items:center;margin:14px 0 18px;text-decoration:none;font-weight:600;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:6px 0}.rt b{font:700 26px/1 'Bodoni Moda',serif}
+.btns{display:flex;flex-direction:column;gap:10px}
+.btn{display:flex;gap:10px;align-items:center;justify-content:center;font:700 13px 'Hanken Grotesk',sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:16px 18px;background:var(--or);color:#fff;border:2px solid var(--ink);transition:background .2s}
+.btn:hover{background:var(--or2)}.btn.gh{background:transparent;color:var(--ink)}.btn.gh:hover{background:var(--bt2)}.btn svg{width:18px;height:18px;fill:currentColor}
+.ph{padding:26px 20px 0}.ph img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 30%;border:2px solid var(--ink);box-shadow:10px 10px 0 var(--ink)}.ph figcaption{font-size:12px;color:var(--mut);padding-top:18px}
+.sec{padding:66px 20px 8px}
+h2{font:700 clamp(36px,10.5vw,58px)/1.05 'Bodoni Moda',serif;margin:8px 0 18px}h2 em{color:var(--or);font-weight:500}
+.svc{list-style:none;border-top:2px solid var(--ink)}
+.svc li{display:flex;align-items:baseline;gap:18px;padding:16px 0;border-bottom:2px solid var(--ink)}.svc span{font:500 italic 18px 'Bodoni Moda',serif;color:var(--or)}.svc b{font:700 clamp(34px,10vw,52px)/1 'Bodoni Moda',serif}
+.gr{display:grid;gap:26px}.gr img{width:100%;object-fit:cover;border:2px solid var(--ink)}.gr .a img{aspect-ratio:4/5;box-shadow:8px 8px 0 var(--or)}.gr .b img{aspect-ratio:3/2;box-shadow:8px 8px 0 var(--ink)}
+.note,.small{font-size:13px;color:var(--mut);margin-top:18px}
+.rv{background:var(--ink);color:var(--bt);margin-top:66px;padding-bottom:40px}
+.rv .kick{color:var(--bt2)}.rv h2 em{color:#f08fd0}.rv .stars{color:#f08fd0}.rv .note{color:#bdb28a}
+.big{display:inline-flex;gap:14px;align-items:center;margin-bottom:10px}.big b{font:700 66px/.9 'Bodoni Moda',serif}.big span{font-size:14px;line-height:1.5}
+.cards{list-style:none}.cards li{padding:28px 0;border-top:1px solid #4d4a3c}
+blockquote{font:500 italic 22px/1.45 'Bodoni Moda',serif}
+.cards footer{margin-top:12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}.cards small{color:#bdb28a;font-size:13px}
+.info{display:grid;gap:18px}.card{background:var(--card);border:2px solid var(--ink);padding:24px}.card h3{font:700 24px 'Bodoni Moda',serif;margin-bottom:6px}
+table{width:100%;border-collapse:collapse}th,td{padding:10px 0;border-bottom:1px solid var(--bt2);text-align:left;font-weight:600;font-size:15px}td{text-align:right}
+.map{padding:0;overflow:hidden}.map iframe{width:100%;height:240px;border:0;display:block}.in2{padding:18px 24px}
+address{font-style:normal;margin-bottom:8px}.in2 a{font-weight:700;text-decoration-color:var(--or);text-underline-offset:3px}
+.cta{margin-top:66px;background:var(--or);color:#fff;border-top:2px solid var(--ink)}.cta .wrap{padding:60px 20px}.cta h2 em{color:var(--bt)}.cta p{margin-bottom:22px}
+.cta .btn{background:var(--bt);color:var(--ink)}.cta .btn.gh{background:transparent;color:#fff;border-color:#fff}
+body>footer{padding:26px 20px;font-size:13px;color:var(--mut);display:grid;gap:12px}
+.badge{display:inline-block;border:2px solid var(--ink);padding:3px 12px;font-size:12px;color:var(--ink)}
+.dock{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:30;display:grid;grid-template-columns:repeat(4,1fr);background:var(--ink);box-shadow:0 8px 24px rgba(28,27,25,.4)}
+.dock a{display:flex;flex-direction:column;align-items:center;gap:1px;padding:8px 0;color:var(--bt);text-decoration:none;font:700 10px 'Hanken Grotesk',sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.dock a.c{background:var(--or);color:#fff}.dock svg{width:19px;height:19px;fill:currentColor}
+.js .fx{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}.js .fx.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.fx{transition:none!important}html{scroll-behavior:auto}}
+:focus-visible{outline:3px solid var(--or);outline-offset:3px}.rv :focus-visible,.cta :focus-visible,.dock :focus-visible{outline-color:var(--bt)}
+@media(min-width:860px){
+body{padding-bottom:96px}.top{padding:12px 48px}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:56px;max-width:1240px;margin:0 auto;padding:36px 48px 20px}
+.hero .in{padding:0}.btns{flex-direction:row;flex-wrap:wrap}.ph{padding:0 12px 0 0}
+.sec,.wrap{max-width:1100px;margin-left:auto;margin-right:auto;padding-left:48px;padding-right:48px}.rv,.cta{max-width:none}.rv>*{max-width:1100px;margin-left:auto;margin-right:auto}.rv>.big{display:flex;width:max-content;margin-left:max(48px,calc((100% - 1100px)/2 + 48px))}
+.gr{grid-template-columns:1fr 1.5fr;align-items:end;gap:48px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}.cards li{border-top:2px solid var(--bt)}
+.info{grid-template-columns:1fr 1.3fr;align-items:start}.dock{left:50%;right:auto;width:560px;transform:translateX(-50%)}body>footer{max-width:1100px;margin:0 auto}
+}

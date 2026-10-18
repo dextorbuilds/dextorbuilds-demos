@@ -1,0 +1,9 @@
+# Image credits
+All photos are from Pexels under the Pexels License (https://www.pexels.com/license/): free to use, attribution not required. Resized and converted to WebP. Representative stock photos, NOT Revibe Beauty Studio, its staff, clients or work. No before/after imagery. No AI-generated images. None are reused from other Dextor Builds demos (checked against all existing CREDITS.md).
+
+- img/hero.webp: "Makeup Artist Applying Eyeshadow in Beauty Studio" by Alexander Mass, https://www.pexels.com/photo/makeup-artist-applying-eyeshadow-in-beauty-studio-29588105/
+- img/b.webp: "Manicure on Woman Hands" by Melih Can, https://www.pexels.com/photo/manicure-on-woman-hands-17280274/
+- img/c.webp: "Photo of the Interior of a Salon" by Max Vakhtbovych, https://www.pexels.com/photo/photo-of-the-interior-of-a-salon-7750098/
+
+Data source: /workspace/batch7/data.md entry 8 (plus a check of the Vagaro page).
+Flags: Booking URL https://www.vagaro.com/revibebeauty loads (HTTP 200); its title is "Revibe Beauty - Chicago IL | Vagaro" and its page data lists Erie Street, Suite 211, Chicago, Illinois 60654, matching the data address, so it is used as "Book online" (Vagaro page content, services and prices not reproduced). Quote 3 says "Revived Beauty Studio" in the original review; kept verbatim (business name is Revibe). Quote 2 is kept verbatim including "beautifully atmosphere" and no final period. Oksana appears only inside quote 3. Instagram link https://www.instagram.com/revibe.beautystudio/ is built from the handle in the data (not separately verified). Services are the names only from the data (Lash, Brows, PMU, Nails, Makeup), no descriptions or prices. "River North" is from the data and quote 1. Address shown as 445 W Erie St, Loft 211 (data); Vagaro lists "Suite 211". Hours: Mon-Fri 10 AM-7 PM, Sat 10 AM-4 PM, Sun closed (AM/PM added to the data's 10-7 / 10-4). Gallery photos are generic stock, not the studio.
