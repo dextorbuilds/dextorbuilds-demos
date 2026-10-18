@@ -1,0 +1,57 @@
+:root{--bl:#2230ff;--bl2:#1620c9;--pk:#ffe3ec;--pk2:#ffc4d6;--ink:#0c0f3a;--wh:#fffdfb}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--pk);color:var(--ink);font:400 16px/1.65 Poppins,system-ui,sans-serif;padding-bottom:90px;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}a{color:inherit}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+.stars{letter-spacing:2px}
+.top{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:10px 18px;background:var(--bl);color:var(--wh)}
+.logo{font:400 24px/1 'Libre Caslon Display',serif;text-decoration:none}.logo i{font-style:italic;color:var(--pk2)}
+.bk{font:600 13px Poppins,sans-serif;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;background:var(--pk);color:var(--bl);padding:8px 20px;border-radius:99px}
+.hero{background:var(--bl);color:var(--wh);padding-bottom:50px;border-radius:0 0 40px 40px;overflow:hidden}
+.hero .in{padding:34px 20px 8px}
+.loc,.kick{font:600 12px Poppins,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--pk2)}
+h1{font:400 clamp(60px,19vw,120px)/.9 'Libre Caslon Display',serif;margin:12px 0 16px}h1 em{font-style:italic;color:var(--pk2)}
+.lede{max-width:30ch;color:#dfe2ff;font-size:17px;margin-bottom:20px}
+.btns{display:flex;flex-direction:column;gap:10px}
+.btn{display:flex;gap:10px;align-items:center;justify-content:center;font:600 14px Poppins,sans-serif;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;padding:15px 18px;background:var(--pk);color:var(--bl2);border-radius:99px;transition:transform .15s}
+.btn.gh{background:transparent;color:var(--wh);border:2px solid rgba(255,253,251,.75)}.btn:active{transform:scale(.97)}.btn svg{width:18px;height:18px;fill:currentColor}
+.ph{position:relative;padding:26px 28px 0}.ph img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:28px;transform:rotate(-2deg);border:5px solid var(--pk)}
+.sticker{position:absolute;right:12px;bottom:34px;width:118px;height:118px;border-radius:50%;background:var(--pk2);color:var(--bl2);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(8deg);box-shadow:0 6px 16px rgba(0,0,0,.25);line-height:1.1}
+.sticker b{font:400 38px/1 'Libre Caslon Display',serif}.sticker small{font-size:10px;font-weight:600;letter-spacing:.04em}.sticker .stars{font-size:11px;letter-spacing:1px}
+.ph figcaption{font-size:12px;color:#dfe2ff;padding-top:14px}
+.sec{padding:56px 20px 8px}.kick{color:var(--bl)}
+h2{font:400 clamp(40px,12vw,68px)/1 'Libre Caslon Display',serif;margin:8px 0 16px}h2 em{font-style:italic;color:var(--bl)}
+.lead{max-width:36ch;margin-bottom:14px}.addr{font-weight:600}
+.gr{display:grid;grid-template-columns:1fr 1fr;gap:12px}.gr figure:nth-child(2){margin-top:30px}.gr img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:24px;border:4px solid var(--wh)}
+.note,.small{font-size:13px;color:#4a4d80;margin-top:12px}
+.rv{background:var(--bl);color:var(--wh);margin-top:56px;border-radius:40px}.wrap{padding:52px 20px}.rv .kick{color:var(--pk2)}.rv h2 em{color:var(--pk2)}.rv .note{color:#cfd3ff}
+.big{display:flex;gap:14px;align-items:center;margin-bottom:18px}.big b{font:400 78px/.9 'Libre Caslon Display',serif}.big span{font-size:14px;line-height:1.5}
+.cards{list-style:none;display:grid;gap:14px}
+.cards li{position:relative;background:var(--pk);color:var(--ink);border-radius:24px;padding:22px 22px 40px}
+.cards li:nth-child(2){transform:rotate(.6deg)}.cards li:nth-child(1){transform:rotate(-.6deg)}
+.cards .stars{color:var(--bl)}
+blockquote{font:400 20px/1.4 'Libre Caslon Display',serif}
+.cards footer{margin-top:12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}.cards small{color:#4a4d80;font-size:13px}
+.no{position:absolute;bottom:6px;right:18px;font:italic 400 28px/1 'Libre Caslon Display',serif;color:var(--pk2)}
+.info{display:grid;gap:14px}.card{background:var(--wh);border-radius:24px;padding:22px}.card h3{font:400 28px 'Libre Caslon Display',serif;margin-bottom:6px}
+table{width:100%;border-collapse:collapse}th,td{padding:10px 0;border-bottom:1px solid var(--pk);text-align:left;font-weight:500;font-size:15px}td{text-align:right}
+.map{padding:0;overflow:hidden}.map iframe{width:100%;height:240px;border:0;display:block}.in2{padding:18px 22px}
+address{font-style:normal;margin-bottom:8px}.in2 a{font-weight:600;color:var(--bl);text-underline-offset:3px}
+.cta{background:var(--bl2);color:var(--wh);margin-top:56px;border-radius:40px 40px 0 0}.cta h2 em{color:var(--pk2)}.cta p{margin-bottom:20px;color:#dfe2ff}
+body>footer{padding:26px 20px;font-size:13px;color:#4a4d80;display:grid;gap:12px}
+.badge{display:inline-block;border:2px solid var(--bl);padding:3px 14px;border-radius:99px;font-size:12px;color:var(--ink)}
+.dock{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:30;display:grid;grid-template-columns:repeat(4,1fr);background:var(--ink);border-radius:99px;overflow:hidden;box-shadow:0 8px 24px rgba(12,15,58,.4)}
+.dock a{display:flex;flex-direction:column;align-items:center;gap:1px;padding:8px 0;color:var(--pk);text-decoration:none;font:600 11px Poppins,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.dock a.c{background:var(--bl);color:#fff}.dock svg{width:19px;height:19px;fill:currentColor}
+.js .fx{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}.js .fx.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.fx{transition:none!important}html{scroll-behavior:auto}}
+:focus-visible{outline:3px solid var(--pk2);outline-offset:3px}.sec :focus-visible{outline-color:var(--bl)}
+@media(min-width:860px){
+body{padding-bottom:96px}.top{padding:12px 48px}
+.hero{display:grid;grid-template-columns:1.15fr 1fr;align-items:center;gap:40px;padding:30px max(48px,calc((100vw - 1240px)/2 + 48px)) 60px}
+.hero .in,.hero .ph{padding:0}.btns{flex-direction:row;flex-wrap:wrap}.ph{max-width:460px;justify-self:center;padding:10px}.sticker{right:-14px}
+.sec,.wrap{max-width:1240px;margin-left:auto;margin-right:auto;padding-left:48px;padding-right:48px}
+.gr{grid-template-columns:repeat(2,minmax(0,340px));gap:24px}.cards{grid-template-columns:repeat(3,1fr)}
+.info{grid-template-columns:1fr 1.3fr;align-items:start}.dock{left:50%;right:auto;width:560px;transform:translateX(-50%)}body>footer{max-width:1240px;margin:0 auto;padding:30px 48px}
+.cta .btns,.cta h2,.cta p{text-align:center;justify-content:center}
+}
