@@ -1,0 +1,55 @@
+:root{--bg:#fff;--ink:#0b0b0c;--mut:#6b6b70;--line:#d9d9dc;--soft:#f3f3f4}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.7 Montserrat,system-ui,sans-serif;padding-bottom:88px;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}a{color:inherit}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+.stars{letter-spacing:3px;font-size:.9em}
+.top{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--ink)}
+.logo{font:400 26px/1 'Gilda Display',serif;text-decoration:none}
+.bk{font:600 12px Montserrat,sans-serif;letter-spacing:.24em;text-transform:uppercase;text-decoration:none;border:1px solid var(--ink);padding:8px 18px}
+.hero .in{padding:40px 20px 28px;text-align:center}
+.loc,.kick{font:500 11px Montserrat,sans-serif;letter-spacing:.34em;text-transform:uppercase;color:var(--mut)}
+h1{font:400 clamp(64px,22vw,130px)/.95 'Gilda Display',serif;margin:14px 0 6px;letter-spacing:-.01em}
+h1 span{display:block;font:500 clamp(12px,3.4vw,16px)/1.4 Montserrat,sans-serif;letter-spacing:.42em;text-transform:uppercase;margin-top:14px}
+.rule{width:56px;border:0;border-top:1px solid var(--ink);margin:22px auto}
+.lede{color:var(--mut);max-width:30ch;margin:0 auto}
+.rt{display:inline-flex;gap:10px;align-items:center;margin:22px 0;text-decoration:none;font-weight:500;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 4px}.rt b{font:400 28px/1 'Gilda Display',serif}
+.btns{display:flex;flex-direction:column;gap:10px}
+.btn{display:flex;gap:10px;align-items:center;justify-content:center;font:600 12px Montserrat,sans-serif;letter-spacing:.24em;text-transform:uppercase;text-decoration:none;padding:16px 18px;background:var(--ink);color:#fff;border:1px solid var(--ink);transition:background .2s,color .2s}
+.btn:hover{background:#fff;color:var(--ink)}.btn.gh{background:#fff;color:var(--ink)}.btn.gh:hover{background:var(--ink);color:#fff}.btn svg{width:16px;height:16px;fill:currentColor}
+.ph{padding:0 20px}.ph img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 40%}
+.ph figcaption{font-size:11px;color:var(--mut);padding-top:8px;letter-spacing:.06em}
+.sec{padding:64px 20px 8px;text-align:center}
+h2{font:400 clamp(40px,12vw,64px)/1.02 'Gilda Display',serif;margin:10px 0 18px}h2 em{font-style:italic}
+.lead{max-width:34ch;margin:0 auto 16px;color:var(--mut)}.addr{font-weight:500;letter-spacing:.04em}
+.gr{display:grid;gap:14px;margin-top:8px}.gr img{width:100%;object-fit:cover}.gr figure:first-child img{aspect-ratio:4/5}.gr figure:last-child img{aspect-ratio:3/2}
+.note,.small{font-size:12px;color:var(--mut);margin-top:14px}
+.big{display:inline-flex;gap:14px;align-items:center;margin-bottom:10px;text-align:left}.big b{font:400 72px/.9 'Gilda Display',serif}.big span{font-size:13px;line-height:1.6}
+.cards{list-style:none;margin-top:10px}
+.cards li{padding:34px 4px;border-top:1px solid var(--ink)}.cards li:last-child{border-bottom:1px solid var(--ink)}
+blockquote{font:400 22px/1.45 'Gilda Display',serif}
+.cards footer{margin-top:14px;display:flex;gap:10px;justify-content:center;align-items:center;flex-wrap:wrap}.cards small{color:var(--mut);font-size:12px;letter-spacing:.06em}
+.info{display:grid;gap:14px;text-align:left}.card{border:1px solid var(--ink);padding:24px}.card h3{font:400 28px 'Gilda Display',serif;margin-bottom:6px}
+table{width:100%;border-collapse:collapse}th,td{padding:10px 0;border-bottom:1px solid var(--line);text-align:left;font-weight:500;font-size:15px}td{text-align:right}
+.map{padding:0;overflow:hidden}.map iframe{width:100%;height:240px;border:0;display:block;filter:grayscale(1)}.in2{padding:20px 24px}
+address{font-style:normal;margin-bottom:8px}.in2 a{font-weight:600;text-underline-offset:3px}
+.cta{margin:64px 0 0;padding:64px 20px;background:var(--ink);color:#fff;text-align:center}.cta p{color:#bdbdc2;margin-bottom:22px}
+.cta .btn{background:#fff;color:var(--ink);border-color:#fff}.cta .btn:hover{background:transparent;color:#fff}.cta .btn.gh{background:transparent;color:#fff}.cta .btn.gh:hover{background:#fff;color:var(--ink)}
+body>footer{padding:28px 20px;font-size:12px;color:var(--mut);display:grid;gap:12px;text-align:center}
+.badge{display:inline-block;border:1px solid var(--ink);padding:4px 14px;font-size:11px;letter-spacing:.1em;color:var(--ink)}
+.dock{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:30;display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid var(--ink);box-shadow:0 8px 24px rgba(0,0,0,.14)}
+.dock a{display:flex;flex-direction:column;align-items:center;gap:3px;padding:9px 0;color:var(--ink);text-decoration:none;font:600 10px Montserrat,sans-serif;letter-spacing:.16em;text-transform:uppercase}
+.dock a.c{background:var(--ink);color:#fff}.dock svg{width:18px;height:18px;fill:currentColor}
+.js .fx{opacity:0;transform:translateY(14px);transition:opacity .7s,transform .7s}.js .fx.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.fx{transition:none!important}html{scroll-behavior:auto}}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}.cta :focus-visible{outline-color:#fff}
+@media(min-width:860px){
+body{padding-bottom:96px}.top{padding:14px 56px}
+.hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;max-width:1240px;margin:0 auto;padding:40px 48px 0;gap:48px}
+.hero .in{padding:20px 0;text-align:left}.rule{margin-left:0}.lede{margin-left:0}.btns{flex-direction:row;flex-wrap:wrap}.btn{padding:16px 22px}
+.ph{padding:0}.ph img{aspect-ratio:4/5;max-height:640px}
+.sec,.cta>*{max-width:1000px;margin-left:auto;margin-right:auto}.sec{padding-left:48px;padding-right:48px}
+.gr{grid-template-columns:1fr 1.4fr;align-items:end}.cards{display:grid;grid-template-columns:repeat(3,1fr)}.cards li{border-bottom:1px solid var(--ink);padding:34px 22px}.cards li+li{border-left:1px solid var(--line)}
+.info{grid-template-columns:1fr 1.3fr;align-items:start}.cta .btns{justify-content:center}
+.dock{left:50%;right:auto;width:560px;transform:translateX(-50%)}body>footer{max-width:1240px;margin:0 auto}
+}
