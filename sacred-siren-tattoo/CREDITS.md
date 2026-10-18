@@ -1,8 +1,8 @@
 # Image credits
 All photos are from Pexels under the Pexels License (https://www.pexels.com/license/): free to use, attribution not required. Resized and converted to WebP. Representative stock photos, NOT Sacred Siren Tattoo & Art Parlor, its artists, clients or work. No AI-generated images. None are reused from other Dextor Builds demos (checked against all existing CREDITS.md).
 
-- img/hero.webp: "Professional Tattoo Artist Creating Arm Art in Studio" by Pexels contributor (title as listed: Focused tattoo artist inking a client's forearm), https://www.pexels.com/photo/professional-tattoo-artist-creating-arm-art-in-studio-29491039/
-- img/b.webp: "Man Touch Serpent Earring on his Ear", https://www.pexels.com/photo/man-touch-serpent-earring-on-his-ear-15799470/
+- img/hero.webp: "Professional Tattoo Artist Creating Arm Art in Studio" by Alejandro Reyes, https://www.pexels.com/photo/professional-tattoo-artist-creating-arm-art-in-studio-29491039/
+- img/b.webp: "Man Touch Serpent Earring on his Ear" by COPPERTIST WU, https://www.pexels.com/photo/man-touch-serpent-earring-on-his-ear-15799470/
 - img/c.webp: "Elegant Art Gallery Interior with Framed Paintings" by Eran Topcu, https://www.pexels.com/photo/elegant-art-gallery-interior-with-framed-paintings-33684107/
 
 Data source: /workspace/batch7/data.md entry 4 only.
