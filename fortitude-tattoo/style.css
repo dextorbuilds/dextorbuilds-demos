@@ -1,0 +1,57 @@
+:root{--ox:#6e1423;--ox2:#8e1d30;--kr:#e8dcc3;--kr2:#d9c9a8;--ink:#15110f;--card:#f3eada;--mut:#5f5446;--gold:#c99a3b}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--kr);color:var(--ink);font:400 16px/1.65 Barlow,system-ui,sans-serif;padding-bottom:90px;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}a{color:inherit}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+.stars{color:var(--ox);letter-spacing:2px}
+.top{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:11px 18px;background:var(--ox);color:var(--kr);border-bottom:3px solid var(--ink)}
+.logo{font:400 18px/1 'Alfa Slab One',serif;text-decoration:none;letter-spacing:.03em}
+.bk{font:700 13px Barlow,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;background:var(--kr);color:var(--ox);padding:7px 18px;border-radius:3px}
+.hero .in{padding:30px 20px 6px}
+.loc,.kick{font:700 12px Barlow,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:var(--ox)}
+h1{font:400 clamp(54px,17vw,112px)/.95 'Alfa Slab One',serif;margin:10px 0 14px;color:var(--ink);text-shadow:3px 3px 0 var(--kr2)}
+h1 span{display:block;color:var(--ox)}
+.lede{font:600 17px Barlow,sans-serif;letter-spacing:.04em}
+.rt{display:inline-flex;gap:10px;align-items:center;margin:14px 0 18px;text-decoration:none;font-weight:600;border:2px solid var(--ink);padding:6px 14px;border-radius:3px;background:var(--card)}.rt b{font:400 24px/1 'Alfa Slab One',serif}
+.btns{display:flex;flex-direction:column;gap:10px}
+.btn{display:flex;gap:10px;align-items:center;justify-content:center;font:700 14px Barlow,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:15px 18px;background:var(--ox);color:var(--kr);border:2px solid var(--ink);border-radius:3px;box-shadow:4px 4px 0 var(--ink);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}.btn.gh{background:var(--card);color:var(--ink)}.btn svg{width:18px;height:18px;fill:currentColor}
+.ph{position:relative;margin:26px 20px 0;border:3px solid var(--ink);box-shadow:8px 8px 0 var(--ox);background:var(--ink)}
+.ph img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 40%}
+.stamp{position:absolute;right:-8px;top:-14px;transform:rotate(7deg);background:var(--gold);color:var(--ink);font:400 13px 'Alfa Slab One',serif;padding:8px 14px;border:2px solid var(--ink);letter-spacing:.06em;text-transform:uppercase}
+.ph figcaption{position:absolute;left:0;bottom:-32px;font-size:12px;color:var(--mut)}
+.sec{padding:64px 20px 8px}
+h2{font:400 clamp(32px,9.5vw,52px)/1.08 'Alfa Slab One',serif;margin:8px 0 16px}h2 em{font-style:normal;color:var(--ox)}
+.lead{max-width:44ch;margin-bottom:20px;color:var(--mut);font-size:17px}
+.gr{display:grid;gap:30px;padding:6px 6px 6px}
+.gr figure{border:3px solid var(--ink);background:var(--card);padding:8px;box-shadow:6px 6px 0 var(--ink)}.gr img{aspect-ratio:4/5;object-fit:cover;width:100%}
+.t1{transform:rotate(-1.5deg)}.t2{transform:rotate(1.5deg)}
+.note,.small{font-size:13px;color:var(--mut);margin-top:18px}
+.rv{background:var(--ink);color:var(--kr);margin-top:60px;padding-bottom:40px;border-top:4px solid var(--ox)}
+.rv .kick{color:var(--gold)}.rv h2 em{color:var(--gold)}.rv .stars{color:var(--gold)}.rv .note{color:#bdb19a}
+.big{display:inline-flex;gap:14px;align-items:center;margin-bottom:10px}.big b{font:400 64px/.9 'Alfa Slab One',serif}.big span{font-size:14px;line-height:1.5}
+.cards{list-style:none}.cards li{padding:26px 0;border-top:2px dashed #4a3f38}
+blockquote{font:500 20px/1.5 Barlow,sans-serif}
+.cards footer{margin-top:12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}.cards small{color:#bdb19a;font-size:13px}
+.info{display:grid;gap:18px}.card{background:var(--card);border:3px solid var(--ink);padding:22px;box-shadow:6px 6px 0 var(--ink)}.card h3{font:400 22px 'Alfa Slab One',serif;margin-bottom:6px;color:var(--ox)}
+table{width:100%;border-collapse:collapse}th,td{padding:8px 0;border-bottom:1px solid var(--kr2);text-align:left;font-weight:600;font-size:15px}td{text-align:right}
+.map{padding:0;overflow:hidden}.map iframe{width:100%;height:240px;border:0;display:block}.in2{padding:18px 22px}
+address{font-style:normal;margin-bottom:8px}.in2 a{font-weight:700;text-decoration-color:var(--ox);text-underline-offset:3px}
+.cta{margin-top:64px;background:var(--ox);color:var(--kr);border-top:4px solid var(--ink)}.cta .wrap{padding:56px 20px}.cta h2 em{color:var(--gold)}.cta p{margin-bottom:22px}
+.cta .btn{background:var(--kr);color:var(--ox)}.cta .btn.gh{background:transparent;color:var(--kr);border-color:var(--kr);box-shadow:4px 4px 0 var(--ink)}
+body>footer{padding:26px 20px;font-size:13px;color:var(--mut);display:grid;gap:12px}
+.badge{display:inline-block;border:2px solid var(--ink);padding:3px 12px;border-radius:3px;font-size:12px;color:var(--ink)}
+.dock{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:30;display:grid;grid-template-columns:repeat(3,1fr);background:var(--ink);border:2px solid var(--ink);border-radius:4px;overflow:hidden;box-shadow:0 0 0 2px var(--kr),0 8px 20px rgba(0,0,0,.35)}
+.dock a{display:flex;flex-direction:column;align-items:center;gap:1px;padding:8px 0;color:var(--kr);text-decoration:none;font:700 11px Barlow,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.dock a.c{background:var(--ox)}.dock svg{width:19px;height:19px;fill:currentColor}
+.js .fx{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}.js .fx.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.fx{transition:none!important}html{scroll-behavior:auto}}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+@media(min-width:860px){
+body{padding-bottom:96px}.top{padding:12px 48px}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:56px;max-width:1240px;margin:0 auto;padding:36px 48px 20px}
+.hero .in{padding:0}.btns{flex-direction:row;flex-wrap:wrap}.ph{margin:0 12px 24px 0}
+.sec,.wrap{max-width:1100px;margin-left:auto;margin-right:auto;padding-left:48px;padding-right:48px}.rv{max-width:none}.rv>*{max-width:1100px;margin-left:auto;margin-right:auto}
+.gr{grid-template-columns:repeat(2,300px);gap:56px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}.cards li{border:2px dashed #4a3f38;padding:24px}
+.info{grid-template-columns:1fr 1.3fr;align-items:start}.dock{left:50%;right:auto;width:460px;transform:translateX(-50%)}body>footer{max-width:1100px;margin:0 auto}.cta .btns{justify-content:flex-start}
+}
