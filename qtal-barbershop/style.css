@@ -17,9 +17,9 @@ h1 span{display:block;font-size:.42em;line-height:1;letter-spacing:.06em;color:v
 .btn{display:flex;gap:10px;align-items:center;justify-content:center;font:600 20px Teko,sans-serif;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:12px 18px;background:var(--or);color:var(--ink);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);transition:transform .15s,box-shadow .15s}
 .btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
 .btn.gh{background:var(--card)}.btn svg{width:20px;height:20px;fill:currentColor}
-.ph{position:relative;margin:6px 20px 0 0;padding:0}.ph::before{content:"";position:absolute;inset:14px 14px -14px 34px;background:var(--or);z-index:0}
-.ph img{position:relative;z-index:1;width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid var(--ink);border-left:0}
-.ph figcaption{position:relative;z-index:1;font-size:12px;color:var(--mut);padding:24px 20px 0}
+.ph{position:relative;margin:6px 20px 0 0;padding:0}
+.ph img{position:relative;z-index:1;width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid var(--ink);border-left:0;box-shadow:12px 12px 0 var(--or)}
+.ph figcaption{position:relative;z-index:1;font-size:12px;color:var(--mut);padding:20px 20px 0}
 .pole{height:18px;margin-top:34px;background:repeating-linear-gradient(135deg,var(--ink) 0 14px,var(--bg) 14px 28px,var(--or) 28px 42px,var(--bg) 42px 56px)}
 .sec{padding:52px 20px 8px}.kick{font:600 15px Teko,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--or2)}
 h2{font:700 clamp(44px,13vw,72px)/.92 Teko,sans-serif;text-transform:uppercase;margin:4px 0 16px}h2 em{font-style:normal;color:var(--or2)}
