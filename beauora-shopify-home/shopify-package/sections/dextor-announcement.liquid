@@ -1,0 +1,11 @@
+{%- comment -%} Dextor: announcement bar {%- endcomment -%}
+{% if section.settings.text != blank %}
+<div class="dx-home"><div class="dx-ann" role="region" aria-label="Announcement">{% if section.settings.link != blank %}<a href="{{ section.settings.link }}">{{ section.settings.text }}</a>{% else %}{{ section.settings.text }}{% endif %}</div></div>
+{% endif %}
+{{ 'dextor-home.css' | asset_url | stylesheet_tag }}
+{% schema %}
+{"name":"Dextor announcement","tag":"section","class":"dx-section","settings":[
+{"type":"text","id":"text","label":"Text","default":"Get 10% off your first order — join the list"},
+{"type":"url","id":"link","label":"Link (optional)"}],
+"presets":[{"name":"Dextor announcement"}]}
+{% endschema %}

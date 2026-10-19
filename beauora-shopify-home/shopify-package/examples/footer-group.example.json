@@ -1,0 +1,13 @@
+{
+  "name": "Dextor footer group",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "dextor-footer",
+      "settings": {}
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

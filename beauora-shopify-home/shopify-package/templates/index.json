@@ -1,0 +1,121 @@
+{
+  "sections": {
+    "hero": {
+      "type": "dextor-hero",
+      "settings": {}
+    },
+    "featured": {
+      "type": "dextor-featured-collection",
+      "settings": {
+        "note": ""
+      }
+    },
+    "usp": {
+      "type": "dextor-usp",
+      "blocks": {
+        "u0": {
+          "type": "usp",
+          "settings": {
+            "icon": "stay",
+            "heading": "Stain that stays",
+            "text": "One swipe, stays all day."
+          }
+        },
+        "u1": {
+          "type": "usp",
+          "settings": {
+            "icon": "gloss",
+            "heading": "Gloss without the stick",
+            "text": "Glass shine that hydrates, never sticky."
+          }
+        },
+        "u2": {
+          "type": "usp",
+          "settings": {
+            "icon": "flush",
+            "heading": "Blush that looks like you",
+            "text": "A natural flush that looks like you."
+          }
+        }
+      },
+      "block_order": [
+        "u0",
+        "u1",
+        "u2"
+      ],
+      "settings": {}
+    },
+    "story": {
+      "type": "dextor-brand-story",
+      "settings": {}
+    },
+    "faq": {
+      "type": "dextor-faq",
+      "blocks": {
+        "q0": {
+          "type": "faq",
+          "settings": {
+            "question": "Are your products vegan and cruelty-free?",
+            "answer": "Yes. All Beauora products are vegan, cruelty-free, and made in North America."
+          }
+        },
+        "q1": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does the Lip Stain last?",
+            "answer": "The Matte Lip Stain is designed to stay put through eating and drinking. Apply once in the morning."
+          }
+        },
+        "q2": {
+          "type": "faq",
+          "settings": {
+            "question": "Is the Lip Oil sticky?",
+            "answer": "No. It's a hydrating formula that gives shine without the tacky feeling."
+          }
+        },
+        "q3": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I use GLOW10?",
+            "answer": "Enter GLOW10 at checkout for 10% off your order."
+          }
+        },
+        "q4": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does shipping take?",
+            "answer": "Standard: 8-14 business days ($9.99, free over $50). Express: 7-12 business days ($29.99)."
+          }
+        },
+        "q5": {
+          "type": "faq",
+          "settings": {
+            "question": "What's your return policy?",
+            "answer": "30 days from delivery for unused products. Email hello@beauora.co to start a return."
+          }
+        }
+      },
+      "block_order": [
+        "q0",
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {}
+    },
+    "newsletter": {
+      "type": "dextor-newsletter",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "featured",
+    "usp",
+    "story",
+    "faq",
+    "newsletter"
+  ]
+}

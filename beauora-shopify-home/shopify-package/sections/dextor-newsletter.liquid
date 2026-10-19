@@ -1,0 +1,14 @@
+{%- comment -%} Dextor: newsletter. Saves subscribers as customers tagged newsletter. {%- endcomment -%}
+<section class="dx-home dx-news" id="newsletter" aria-labelledby="nl-{{ section.id }}"><p class="dx-eyebrow">{{ section.settings.eyebrow }}</p><h2 id="nl-{{ section.id }}">{{ section.settings.heading }}</h2><p>{{ section.settings.text }}</p>
+{% form 'customer', class: 'dx-form' %}<input type="hidden" name="contact[tags]" value="newsletter"><label for="ne-{{ section.id }}" style="position:absolute;left:-999px">Email address</label><input id="ne-{{ section.id }}" type="email" name="contact[email]" placeholder="Email address" required autocomplete="email" value="{{ form.email }}"><button type="submit">{{ section.settings.button_label }}</button>{% endform %}
+{% if form.posted_successfully? %}<p class="dx-msg" role="status">Thanks for subscribing.</p>{% elsif form.errors %}<p class="dx-msg" role="alert">{{ form.errors.messages['email'] | default: 'Please check the email address.' }}</p>{% else %}<p class="dx-msg">{{ section.settings.fineprint }}</p>{% endif %}</section>
+{{ 'dextor-home.css' | asset_url | stylesheet_tag }}
+{% schema %}
+{"name":"Dextor newsletter","tag":"section","settings":[
+{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Newsletter"},
+{"type":"text","id":"heading","label":"Heading","default":"Get 10% off your first order"},
+{"type":"textarea","id":"text","label":"Text","default":"Join the list for early drops and subscriber-only codes."},
+{"type":"text","id":"button_label","label":"Button label","default":"Join"},
+{"type":"text","id":"fineprint","label":"Small print","default":"No spam, unsubscribe anytime."}],
+"presets":[{"name":"Dextor newsletter"}]}
+{% endschema %}

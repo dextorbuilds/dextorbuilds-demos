@@ -1,0 +1,17 @@
+{%- comment -%} Dextor: footer. Use in the footer section group. {%- endcomment -%}
+<footer class="dx-home dx-foot"><div class="dx-wrap"><div><a class="dx-logo" href="{{ routes.root_url }}">{% if section.settings.logo != blank %}<img src="{{ section.settings.logo | image_url: width: 400 }}" alt="{{ shop.name }}" width="168" height="26">{% else %}<span>{{ shop.name }}</span>{% endif %}</a><p class="dx-sub" style="margin-top:14px">{{ section.settings.tagline }}</p></div>
+<div><h3>{{ section.settings.menu_title }}</h3><ul>{% for link in section.settings.menu.links %}<li><a href="{{ link.url }}">{{ link.title }}</a></li>{% endfor %}</ul></div>
+<div><h3>{{ section.settings.contact_title }}</h3><ul>{% if section.settings.email != blank %}<li><a href="mailto:{{ section.settings.email }}">{{ section.settings.email }}</a></li>{% endif %}{% if section.settings.instagram != blank %}<li><a href="{{ section.settings.instagram }}" rel="noopener">{{ section.settings.instagram_label }}</a></li>{% endif %}{% if shop.privacy_policy %}<li><a href="{{ shop.privacy_policy.url }}">Privacy policy</a></li>{% endif %}</ul></div></div>
+<div class="dx-wrap"><div class="dx-legal"><span>© {{ 'now' | date: '%Y' }} {{ shop.name }} · {{ powered_by_link }}</span></div></div></footer>
+{{ 'dextor-home.css' | asset_url | stylesheet_tag }}
+{% schema %}
+{"name":"Dextor footer","tag":"footer","settings":[
+{"type":"image_picker","id":"logo","label":"Logo"},
+{"type":"text","id":"tagline","label":"Tagline","default":"Affordable beauty essentials for your everyday glow."},
+{"type":"text","id":"menu_title","label":"Menu title","default":"Shop"},
+{"type":"link_list","id":"menu","label":"Menu","default":"footer"},
+{"type":"text","id":"contact_title","label":"Contact title","default":"Say hello"},
+{"type":"text","id":"email","label":"Email","default":"hello@beauora.co"},
+{"type":"url","id":"instagram","label":"Instagram URL","default":"https://instagram.com/beauora.co"},
+{"type":"text","id":"instagram_label","label":"Instagram label","default":"Instagram @beauora.co"}]}
+{% endschema %}
