@@ -7,7 +7,7 @@ The site is plain static HTML, CSS and vanilla JS: `index.html`, `style.css`, `i
 2. Add a first-line theme header to `style.css`:
    `/* Theme Name: Cameroon Agro  Version: 1.0 */`
 3. Create `index.php` from `index.html`:
-   - Remove the `<link rel="stylesheet" href="style.css?v=2">` and `<link rel="preload" ... img/hero.webp>` lines; put `<?php wp_head(); ?>` before `</head>` and `<?php wp_footer(); ?>` before `</body>`.
+   - Remove the `<link rel="stylesheet" href="style.css?v=3">` and `<link rel="preload" ... img/hero.webp>` lines; put `<?php wp_head(); ?>` before `</head>` and `<?php wp_footer(); ?>` before `</body>`.
    - Enqueue the CSS in `functions.php`: `wp_enqueue_style('ca', get_stylesheet_uri(), [], '1.0');`
    - Replace every `img/` with `<?php echo get_template_directory_uri(); ?>/img/`.
 4. Activate the theme and set Settings > Reading > static front page if wanted.
