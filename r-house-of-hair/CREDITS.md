@@ -1,0 +1,9 @@
+# Image credits
+All photos are from Pexels under the Pexels License (https://www.pexels.com/license/): free to use, attribution not required. Resized and converted to WebP. Representative stock photos, NOT R House Of Hair, Julia, its clients or work. No before/after imagery or claims. No AI-generated images. None are reused from other Dextor Builds demos (checked against all existing CREDITS.md).
+
+- img/hero.webp: "Bundles of Human Hair" by Alina Skazka, https://www.pexels.com/photo/bundles-of-human-hair-14730867/
+- img/b.webp: "Hairstylist assisting Client" by Mikhail Nilov, https://www.pexels.com/photo/hairstylist-assisting-client-7819732/
+- img/c.webp: "Back View of Woman with Long Brown Hair" by Anastasiya Badun, https://www.pexels.com/photo/back-view-of-woman-with-long-brown-hair-29254098/
+
+Data source: /workspace/batch8/data.md entry 3 only.
+Flags: The review excerpts in the data have NO dates, so they are credited only "Google review" (no month/year invented), and they may be fragments/paraphrases; quote 3 "Julia does consultations" is the exact string given. Julia is named in the data and the quotes. The listing has NO street address, so only "Omaha, NE" is shown; no map and no Directions button (skipped on purpose; the page says "Contact the studio for the exact location"). Hours: Tue-Sat start times were listed as "7" without AM/PM; shown as "7 AM*" with an on-page note asking visitors to confirm. Tue 7-6 shown as 7 AM-6 PM, Wed-Thu 7-5 as 7 AM-5 PM, Fri 7-2 as 7 AM-2 PM, Sat 7-5 as 7 AM-5 PM; Mon 3:30-8 PM and Sun closed as given. Email info@rhouseofhair.com is a mailto link per the data. Instagram link https://www.instagram.com/rhouseofhair/ is built from the handle in the data (not verified). Rating "5.0 / 63 reviews" shown as "63 reviews" (data does not say Google for this count). No services list beyond "hair extensions" (category from the data), no prices, no booking link.
