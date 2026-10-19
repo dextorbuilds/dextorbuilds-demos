@@ -1,14 +1,9 @@
-{%- comment -%} Dextor: header (centered logo, menu left). Use in the header section group. {%- endcomment -%}
-<div class="dx-home"><header class="dx-head"><div class="dx-wrap">
-<nav class="dx-nav" aria-label="Main">{% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}</nav>
-<a class="dx-logo" href="{{ routes.root_url }}" aria-label="{{ shop.name }}">{% if section.settings.logo != blank %}<img src="{{ section.settings.logo | image_url: width: 400 }}" alt="{{ shop.name }}" width="168" height="26">{% else %}<span>{{ shop.name }}</span>{% endif %}</a>
-<a class="dx-shop" href="{{ section.settings.shop_link | default: routes.all_products_collection_url }}">{{ section.settings.shop_label }}</a></div>
+{%- comment -%} Header: centered logo, nav from a menu, Shop button. Put in the header group. {%- endcomment -%}
+<div class="dx-home"><header class="dx-head"><div class="dx-wrap"><nav class="dx-nav" aria-label="Main">{% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}</nav>
+<a class="dx-logo" href="{{ routes.root_url }}" aria-label="{{ shop.name | escape }}">{% if section.settings.logo != blank %}{{ section.settings.logo | image_url: width: 336 | image_tag: height: 26, alt: shop.name }}{% else %}<img src="{{ 'logo.png' | asset_url }}" alt="{{ shop.name | escape }}" width="168" height="26">{% endif %}</a>
+<a class="dx-shop" href="{{ section.settings.button_link | default: routes.all_products_collection_url }}">{{ section.settings.button_label }}</a></div>
 <nav class="dx-navm" aria-label="Main mobile">{% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}</nav></header></div>
 {{ 'dextor-home.css' | asset_url | stylesheet_tag }}
 {% schema %}
-{"name":"Dextor header","tag":"section","settings":[
-{"type":"image_picker","id":"logo","label":"Logo"},
-{"type":"link_list","id":"menu","label":"Menu","default":"main-menu"},
-{"type":"text","id":"shop_label","label":"Button label","default":"Shop"},
-{"type":"url","id":"shop_link","label":"Button link (default: all products)"}]}
+{"name": "Dextor header", "tag": "header", "settings": [{"type": "image_picker", "id": "logo", "label": "Logo (falls back to assets/logo.png)"}, {"type": "link_list", "id": "menu", "label": "Menu", "default": "main-menu"}, {"type": "text", "id": "button_label", "label": "Button label", "default": "Shop"}, {"type": "url", "id": "button_link", "label": "Button link"}]}
 {% endschema %}

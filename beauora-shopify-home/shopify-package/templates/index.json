@@ -4,49 +4,261 @@
       "type": "dextor-hero",
       "settings": {}
     },
+    "trust": {
+      "type": "dextor-trust",
+      "blocks": {
+        "t0": {
+          "type": "item",
+          "settings": {
+            "icon": "vegan",
+            "text": "Vegan"
+          }
+        },
+        "t1": {
+          "type": "item",
+          "settings": {
+            "icon": "cruel",
+            "text": "Cruelty-free"
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "icon": "na",
+            "text": "Made in North America"
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "icon": "ship",
+            "text": "Free standard shipping over $50"
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "icon": "ret",
+            "text": "30-day returns on unused products"
+          }
+        }
+      },
+      "block_order": [
+        "t0",
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "settings": {}
+    },
     "featured": {
       "type": "dextor-featured-collection",
+      "settings": {}
+    },
+    "steps": {
+      "type": "dextor-steps",
+      "blocks": {
+        "s0": {
+          "type": "step",
+          "settings": {
+            "fallback": "look-lipstick.webp",
+            "headline": "Stain lays the color.",
+            "product": "Matte Lip Stain",
+            "text": "Designed to stay put through eating and drinking. Apply once in the morning."
+          }
+        },
+        "s1": {
+          "type": "step",
+          "settings": {
+            "fallback": "look-gloss.webp",
+            "headline": "Oil glasses it over.",
+            "product": "Hydrating Lip Oil",
+            "text": "Glass lips without the stick: a hydrating formula that gives shine without the tacky feeling."
+          }
+        },
+        "s2": {
+          "type": "step",
+          "settings": {
+            "fallback": "look-blush.webp",
+            "headline": "Blush brings it to your cheeks.",
+            "product": "Liquid Blush",
+            "text": "A flush that looks like you, not makeup."
+          }
+        }
+      },
+      "block_order": [
+        "s0",
+        "s1",
+        "s2"
+      ],
+      "settings": {}
+    },
+    "cta1": {
+      "type": "dextor-cta-band",
       "settings": {
-        "note": ""
+        "fallback": "flatlay-pink.webp"
       }
     },
-    "usp": {
-      "type": "dextor-usp",
+    "why": {
+      "type": "dextor-why",
       "blocks": {
-        "u0": {
+        "w0": {
+          "type": "check",
+          "settings": {
+            "text": "Vegan, cruelty-free makeup (the store’s claim)"
+          }
+        },
+        "w1": {
+          "type": "check",
+          "settings": {
+            "text": "Made in North America (the store’s claim)"
+          }
+        },
+        "w2": {
+          "type": "check",
+          "settings": {
+            "text": "Three products. One look. Done."
+          }
+        },
+        "w3": {
+          "type": "check",
+          "settings": {
+            "text": "No fillers. No fluff. Just products that do what they say."
+          }
+        },
+        "w4": {
+          "type": "check",
+          "settings": {
+            "text": "Free standard shipping over $50"
+          }
+        },
+        "w5": {
+          "type": "check",
+          "settings": {
+            "text": "30-day returns on unused products"
+          }
+        },
+        "w6": {
           "type": "usp",
           "settings": {
-            "icon": "stay",
             "heading": "Stain that stays",
             "text": "One swipe, stays all day."
           }
         },
-        "u1": {
+        "w7": {
           "type": "usp",
           "settings": {
-            "icon": "gloss",
             "heading": "Gloss without the stick",
             "text": "Glass shine that hydrates, never sticky."
           }
         },
-        "u2": {
+        "w8": {
           "type": "usp",
           "settings": {
-            "icon": "flush",
             "heading": "Blush that looks like you",
             "text": "A natural flush that looks like you."
           }
         }
       },
       "block_order": [
-        "u0",
-        "u1",
-        "u2"
+        "w0",
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8"
       ],
       "settings": {}
     },
     "story": {
       "type": "dextor-brand-story",
+      "settings": {}
+    },
+    "reviews": {
+      "type": "dextor-reviews",
+      "blocks": {
+        "r0": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "text": "Easy to use and quick to put on. Just what I wanted from a simple routine.",
+            "author": "Sample review",
+            "tag": "Demo"
+          }
+        },
+        "r1": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "text": "I like having only three products to think about. It keeps getting ready simple.",
+            "author": "Sample review",
+            "tag": "Demo"
+          }
+        },
+        "r2": {
+          "type": "review",
+          "settings": {
+            "stars": 4,
+            "text": "Pretty packaging and the shades are fun to pick. Nice little set.",
+            "author": "Sample review",
+            "tag": "Demo"
+          }
+        },
+        "r3": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "text": "The routine is easy to follow, and the steps are clearly laid out on the site.",
+            "author": "Sample review",
+            "tag": "Demo"
+          }
+        }
+      },
+      "block_order": [
+        "r0",
+        "r1",
+        "r2",
+        "r3"
+      ],
+      "settings": {}
+    },
+    "shipping": {
+      "type": "dextor-shipping",
+      "blocks": {
+        "c0": {
+          "type": "card",
+          "settings": {
+            "title": "Standard",
+            "big": "$9.99",
+            "text": "8-14 business days. Free over $50."
+          }
+        },
+        "c1": {
+          "type": "card",
+          "settings": {
+            "title": "Express",
+            "big": "$29.99",
+            "text": "7-12 business days."
+          }
+        },
+        "c2": {
+          "type": "card",
+          "settings": {
+            "title": "Returns",
+            "big": "30 days",
+            "text": "From delivery, for unused products. Email hello@beauora.co to start a return."
+          }
+        }
+      },
+      "block_order": [
+        "c0",
+        "c1",
+        "c2"
+      ],
       "settings": {}
     },
     "faq": {
@@ -105,17 +317,38 @@
       ],
       "settings": {}
     },
+    "cta2": {
+      "type": "dextor-cta-band",
+      "settings": {
+        "fallback": "gloss-dark.webp",
+        "dark": true,
+        "eyebrow": "Beauty that gets you.",
+        "heading": "Three products. One checkout.",
+        "button_label": "Shop now"
+      }
+    },
     "newsletter": {
       "type": "dextor-newsletter",
+      "settings": {}
+    },
+    "sticky": {
+      "type": "dextor-sticky-bar",
       "settings": {}
     }
   },
   "order": [
     "hero",
+    "trust",
     "featured",
-    "usp",
+    "steps",
+    "cta1",
+    "why",
     "story",
+    "reviews",
+    "shipping",
     "faq",
-    "newsletter"
+    "cta2",
+    "newsletter",
+    "sticky"
   ]
 }

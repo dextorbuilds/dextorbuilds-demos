@@ -1,0 +1,7 @@
+{%- comment -%} Sticky mobile shop bar: shows after scrolling, hides over the newsletter. {%- endcomment -%}
+<div class="dx-home"><div class="dx-sticky" id="sb-{{ section.id }}"><div><b>{{ section.settings.title }}</b><span>{{ section.settings.sub }}</span></div><a class="dx-btn" href="{{ section.settings.link | default: routes.all_products_collection_url }}">{{ section.settings.button_label }}</a></div></div>
+<script>(function(){var sb=document.getElementById('sb-{{ section.id }}');if(!sb)return;function t(){var nw=document.getElementById('newsletter');var hide=false;if(nw){var r=nw.getBoundingClientRect();hide=r.top<innerHeight&&r.bottom>0}sb.classList.toggle('show',scrollY>600&&!hide)}addEventListener('scroll',t,{passive:true});t()})();</script>
+{{ 'dextor-home.css' | asset_url | stylesheet_tag }}
+{% schema %}
+{"name": "Dextor sticky mobile bar", "tag": "div", "settings": [{"type": "text", "id": "title", "label": "Title", "default": "The one-look routine"}, {"type": "text", "id": "sub", "label": "Subtitle", "default": "3 products from $29.37 · Free shipping over $50"}, {"type": "text", "id": "button_label", "label": "Button", "default": "Shop now"}, {"type": "url", "id": "link", "label": "Link"}], "presets": [{"name": "Dextor sticky mobile bar"}]}
+{% endschema %}
