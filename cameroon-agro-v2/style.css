@@ -41,7 +41,7 @@ h2{font:800 clamp(38px,11vw,100px)/.92 'Anybody',sans-serif;font-stretch:100%;te
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}.track{animation:none}}
 @media(min-width:960px){body{padding-bottom:0}.dock{display:none}
 .rail{display:flex;flex-direction:column;justify-content:space-between;position:fixed;left:0;top:0;bottom:0;width:210px;padding:28px 24px;border-right:1px solid var(--ln);background:var(--bk);z-index:40}
-.mk{font:800 30px/1 'Anybody',sans-serif;font-stretch:105%;text-decoration:none;color:var(--lm)}.mk small{display:block;font:500 11px 'JetBrains Mono',monospace;color:var(--mut);margin-top:6px;letter-spacing:.08em}
+.mk{font:800 22px/1.05 'Anybody',sans-serif;text-decoration:none;color:var(--lm)}.mk small{display:block;font:500 11px 'JetBrains Mono',monospace;color:var(--mut);margin-top:6px;letter-spacing:.14em;text-transform:uppercase}
 .rail nav{display:flex;flex-direction:column;gap:6px}.rail nav a{display:flex;gap:12px;padding:8px 0;text-decoration:none;font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--mut);border-bottom:1px solid var(--ln)}.rail nav a i{font-style:normal;color:var(--lm)}.rail nav a:hover{color:var(--wh)}
 .rc{background:var(--lm);color:#000;text-align:center;padding:14px 10px;font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}.rc:hover{background:#fff}
 .wrapper{margin-left:210px}.hero{min-height:min(100vh,900px)}.brand{padding:28px 48px}.hero .in{padding:0 48px 60px}.btns{flex-direction:row;flex-wrap:wrap;max-width:none}
