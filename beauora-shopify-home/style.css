@@ -94,3 +94,4 @@
 .dx-story .dx-sfig{margin:0;max-width:none}.dx-revs{grid-template-columns:repeat(4,1fr)}.dx-ship{grid-template-columns:repeat(3,1fr)}.dx-sticky{display:none}.dx-foot{padding-bottom:36px}.dx-band{padding:130px 0}}
 @media(min-width:860px){.dx-story .dx-wrap{grid-template-columns:.8fr 1.2fr}}
 .dx-rev blockquote{margin:0;border:0;padding:0}.dx-rev{margin:0}.dx-stp,.dx-sc{margin:0}.dx-stp figure,.dx-rev{margin-inline:0}
+.dx-foot .dx-wrap+.dx-wrap{display:block}.dx-foot ul{padding:0;margin:0}
