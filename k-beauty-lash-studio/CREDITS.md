@@ -1,0 +1,9 @@
+# Image credits
+All photos are from Pexels under the Pexels License (https://www.pexels.com/license/): free to use, attribution not required. Cropped, resized and converted to WebP. Representative stock photos, NOT K_beauty LASH Studio, its staff, clients or work. No before/after imagery. No AI-generated images. None reused from other Dextor Builds demos (checked against all existing CREDITS.md).
+
+- img/hero.webp: "Close-up of Eye with Natural Makeup" by Ssümçiğ, https://www.pexels.com/photo/close-up-of-eye-with-natural-makeup-38283818/
+- img/b.webp: "Person Holding a Set of False Eyelashes" by RDNE Stock project, https://www.pexels.com/photo/person-holding-a-set-of-false-eyelashes-7755523/
+- img/c.webp: "Brown Eye of a Young Woman" by Priscila Zovia, https://www.pexels.com/photo/brown-eye-of-a-young-woman-16465930/
+
+Data source: /workspace/batch8/data.md entry 5 only.
+Flags: Review excerpts have NO dates, so credited only "Google review" (no month/year invented); they may be fragments/paraphrases, shown exactly as given (quotes 1 and 3 keep their punctuation/ellipsis). Hours were listed without AM/PM; shown as presumed (Mon 1-6 PM, Tue 10 AM-7:30 PM, Wed 1-7 PM, Thu-Fri 10 AM-6 PM, Sat 10 AM-4 PM, Sun closed): confirm. Address includes "Apt 117" (shown and used in map/directions). "Kay" (lash tech) appears only in the hero line "Lashes with Kay" (data: lash tech Kay; the reviews say "She" and do not name her). The three small info cards (Lashes, Consultation, First timers) paraphrase only the review excerpts and are labelled as such, not a service menu. Instagram link https://www.instagram.com/k_beauty0726/ is built from the handle in the data (not verified). No booking link given: CTAs are Call, Instagram and Directions. Business name styled "K_beauty LASH Studio" as given.
