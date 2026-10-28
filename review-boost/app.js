@@ -20,7 +20,7 @@ const TOPICS=[[/\b(fade|taper)s?\b/i,'fade'],[/\bbeard|line ?up|shape ?up\b/i,'b
 function analyse(t,st){const p=(t.match(POS)||[]).length,n=(t.match(NEG)||[]).length;let tone;if(st){tone=st>=4?'positive':st==3?'mixed':'negative';if(st>=4&&n>p)tone='mixed'}else tone=n===0&&p>0?'positive':n>0&&p>0?'mixed':n>0?'negative':'positive';
  let topic=null;for(const [r,l] of TOPICS)if(r.test(t)){topic=l;break}const barber=(t.match(/\b(?:with|by|from|ask for|shout ?out to)\s+([A-Z][a-z]{2,})\b/)||[])[1];return{tone,topic,barber}}
 function draft(){const t=$('rev').value.trim(),st=+$('stars').value||0,who=$('who').value.trim().split(/\s+/)[0],shop=$('sig').value.trim()||lastShop||$('shop').value.trim()||'the team';
- const {tone,topic,barber}=analyse(t,st);const hi=pick(who?[`Hi ${who},`,`Hey ${who},`,`${who}, thank you!`]:['Hi there,','Hello,','Thank you!']).replace(/^(.+), thank you!$/,'$1,');let b=[];
+ const {tone,topic,barber}=analyse(t,st);const hi=pick(who?[`Hi ${who},`,`Hey ${who},`,`Hello ${who},`]:['Hi there,','Hello,','Thank you!']);let b=[];
  if(tone==='positive'){b.push(pick(['Thank you so much for the kind words. It really made our day.','We appreciate you taking the time to leave a review. Thank you!','This is great to read. Thanks for the love!']));
   if(topic&&topic!=='wait time'&&topic!=='pricing')b.push(pick([`Glad the ${topic} came out exactly how you wanted.`,`Happy to hear you liked the ${topic}.`]));
   if(barber)b.push(pick([`We'll make sure ${barber} sees this.`,`${barber} will be glad to hear it.`]));b.push(pick(['See you next time in the chair!','Looking forward to your next visit.','We\'ll keep you looking sharp. See you soon!']));}
