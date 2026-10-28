@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Review Boost · More Google reviews for barbershops</title>
+<meta name="description" content="Demo: text clients a direct Google review link after every cut, and draft replies to new reviews.">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><div class="wrap row"><a class="logo" href="#">Review<span>Boost</span></a><span class="demo">Demo</span></div></header>
+<main>
+<section class="hero"><div class="wrap">
+<p class="eyebrow">Built for barbershops</p>
+<h1>Every great cut deserves a <em>five-star</em> review.</h1>
+<p class="sub">After each appointment your client gets a short text with a direct link to your Google review page: one tap, no searching. When new reviews come in, Review Boost drafts a polite reply for you to approve.</p>
+<div class="offer"><div><strong>Free for 30 days</strong><span>then $29/month · cancel anytime</span></div>
+<a class="btn gold" id="claim" href="mailto:dextorplus@gmail.com?subject=Review%20Boost%20%E2%80%93%20claim%20my%20free%20month&body=Hi%2C%0A%0AI%27d%20like%20to%20claim%20the%20free%2030-day%20Review%20Boost%20trial.%0A%0AShop%20name%3A%20%0ACity%3A%20%0AGoogle%20review%20link%20(if%20you%20have%20it)%3A%20%0ABest%20number%20to%20reach%20me%3A%20%0A%0AThanks!">Claim free month</a></div>
+<ol class="steps"><li><b>1</b>Cut finished</li><li><b>2</b>Client gets a text</li><li><b>3</b>One tap to review</li><li><b>4</b>AI-drafted reply</li></ol>
+</div></section>
+
+<section class="panel" id="generator"><div class="wrap">
+<p class="eyebrow">Try it · Step 1</p><h2>Your review link, QR code and text</h2>
+<p class="note">Paste your Google review link (from your Google Business Profile → “Ask for reviews”). Everything runs in your browser; nothing is sent anywhere.</p>
+<form id="gen" class="card" novalidate>
+<label>Shop name<input id="shop" maxlength="60" placeholder="e.g. Main Street Barbers" autocomplete="off"></label>
+<label>Google review link<input id="url" type="url" inputmode="url" placeholder="https://g.page/r/…/review" autocomplete="off"></label>
+<p class="err" id="urlErr" role="alert"></p>
+<button class="btn ink" type="submit">Generate QR &amp; text</button>
+</form>
+<div id="out" class="out" hidden>
+<div class="card qr"><canvas id="qr" width="600" height="600" aria-label="QR code for your review link"></canvas><p class="cap" id="qrCap"></p><button class="btn ghost" id="dl" type="button">Download PNG</button></div>
+<div class="card sms"><p class="lbl">Sample text to clients</p><div class="bubble" id="sms"></div><button class="btn ghost" id="copySms" type="button">Copy text</button></div>
+</div>
+</div></section>
+
+<section class="panel alt" id="reply"><div class="wrap">
+<p class="eyebrow">Try it · Step 2</p><h2>AI reply drafts</h2>
+<p class="note">Paste a review and get a ready-to-edit reply. This demo uses smart templates in your browser; no paid API.</p>
+<form id="rf" class="card">
+<label>Review text<textarea id="rev" rows="5" placeholder="Paste a customer review…"></textarea></label>
+<div class="two"><label>Stars (optional)<select id="stars"><option value="">Not sure</option><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select></label>
+<label>Reviewer name (optional)<input id="who" maxlength="40" placeholder="e.g. Jordan"></label></div>
+<label>Shop name for sign-off (optional)<input id="sig" maxlength="60" placeholder="Uses the name from Step 1"></label>
+<p class="err" id="revErr" role="alert"></p>
+<button class="btn ink" type="submit">Draft reply</button>
+</form>
+<div class="card" id="replyOut" hidden><p class="lbl">Draft reply <span id="tone" class="pill"></span></p><p id="draft" class="draft"></p>
+<div class="row gap"><button class="btn ghost" id="copyReply" type="button">Copy reply</button><button class="btn ghost" id="again" type="button">Another version</button></div></div>
+</div></section>
+
+<section class="cta"><div class="wrap"><h2>Start collecting reviews this week.</h2><p>Free for 30 days, then $29/month. Setup is done for you.</p><a class="btn gold" href="#" onclick="document.getElementById('claim').click();return false">Claim free month</a></div></section>
+</main>
+<footer><div class="wrap">Review Boost is a product demo by Dextor Builds. Not affiliated with Google. Google is a trademark of Google LLC.</div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="vendor/qrcode.js"></script><script src="app.js"></script></body></html>
